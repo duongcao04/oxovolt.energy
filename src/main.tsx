@@ -15,6 +15,11 @@ declare module '@tanstack/react-router' {
     }
 }
 
+// Strip any modal hash left in URL from a previous session
+if (window.location.hash) {
+    window.history.replaceState({}, '', window.location.pathname + window.location.search);
+}
+
 const pathLang = window.location.pathname.split('/')[1];
 const isValidLangPath =
     APP_CONFIG.language.useUrl &&

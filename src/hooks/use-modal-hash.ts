@@ -1,17 +1,7 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useState } from 'react';
 
 export function useModalHash(hash: string) {
-    const [isOpen, setIsOpen] = useState(
-        () => typeof window !== 'undefined' && window.location.hash === `#${hash}`,
-    );
-
-    useEffect(() => {
-        const handlePopState = () => {
-            setIsOpen(window.location.hash === `#${hash}`);
-        };
-        window.addEventListener('popstate', handlePopState);
-        return () => window.removeEventListener('popstate', handlePopState);
-    }, [hash]);
+    const [isOpen, setIsOpen] = useState(false);
 
     const onOpen = useCallback(() => {
         setIsOpen(true);
