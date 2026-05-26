@@ -18,7 +18,7 @@ import { ResponsiveContainer } from '@/components/layout';
 import { UpdatingModal } from '@/features/(updating)';
 import { useTranslation } from 'react-i18next';
 import { ArrowRightIcon } from 'lucide-react';
-import { useDisclosure } from '@/hooks';
+import { useDisclosure, useModalHash } from '@/hooks';
 import { cn } from '../../../../lib';
 
 export function LoopXcellSeriesSection() {
@@ -31,23 +31,23 @@ export function LoopXcellSeriesSection() {
         returnObjects: true,
     }) as { title: string; desc: string }[];
 
-    const personalModalState = useDisclosure();
+    const personalModalState = useModalHash('loopxcell-discover');
     const updatingModalState = useDisclosure();
 
-    const dataModalState = useDisclosure();
-    const energyModalState = useDisclosure();
-    const connectivityModalState = useDisclosure();
+    const dataModalState = useModalHash('loopxcell-data-vault');
+    const energyModalState = useModalHash('loopxcell-energy-system');
+    const connectivityModalState = useModalHash('loopxcell-connectivity-system');
 
     const dataContinuityModal = useDisclosure();
     const energyContinuityModal = useDisclosure();
     const connectivityContinuityModal = useDisclosure();
 
-    const datasheetModal = useDisclosure();
+    const datasheetModal = useModalHash('loopxcell-datasheet');
 
-    const maximumEnergyModal = useDisclosure();
-    const extremeModal = useDisclosure();
-    const modularModal = useDisclosure();
-    const builtInInvertersModal = useDisclosure();
+    const maximumEnergyModal = useModalHash('maximum-energy-density');
+    const extremeModal = useModalHash('extreme-performance');
+    const modularModal = useModalHash('modular-architecture');
+    const builtInInvertersModal = useModalHash('built-in-inverters');
 
     const featureModals = [
         maximumEnergyModal,

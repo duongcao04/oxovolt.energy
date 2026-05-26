@@ -2,11 +2,11 @@ import { Button, SectionSubTitle, SectionTitle } from '@/components/ui';
 import { ResponsiveContainer } from '@/components/layout';
 import graphic03 from '@/assets/graphic/graphic-03.png';
 import { useTranslation } from 'react-i18next';
-import { useDevice } from '../../../../hooks';
+import { useDevice, useModalHash } from '../../../../hooks';
 import { ArrowRightIcon } from 'lucide-react';
 import { Separator } from '@heroui/react';
 import { cn } from '../../../../lib';
-import React, { useState } from 'react';
+import React from 'react';
 
 import { PowerYourActivityModal } from '../modals/professional-continuity-modals/power-your-activity-modal';
 import { AutonomousEnergyModal } from '../modals/professional-continuity-modals/autonomous-energy-modal';
@@ -23,11 +23,23 @@ export const ProfessionalContinuitySection = () => {
         returnObjects: true,
     }) as { title: string; desc: string }[];
 
-    const [activeFeatureIdx, setActiveFeatureIdx] = useState<number | null>(null);
+    const powerYourActivityModal = useModalHash('power-your-activity');
+    const autonomousEnergyModal = useModalHash('autonomous-energy');
+    const secureResilientModal = useModalHash('secure-resilient');
+    const nextGenConnectivityModal = useModalHash('next-gen-connectivity');
+    const privateSovereignCloudModal = useModalHash('private-sovereign-cloud');
+    const multiNodesSplittedFilesModal = useModalHash('multi-nodes-splitted-files');
+    const builtForEverydayModal = useModalHash('built-for-everyday-reliability');
 
-    const handleClose = (open: boolean) => {
-        if (!open) setActiveFeatureIdx(null);
-    };
+    const featureModals = [
+        powerYourActivityModal,
+        autonomousEnergyModal,
+        secureResilientModal,
+        nextGenConnectivityModal,
+        privateSovereignCloudModal,
+        multiNodesSplittedFilesModal,
+        builtForEverydayModal,
+    ];
 
     return (
         <ResponsiveContainer
@@ -75,7 +87,6 @@ export const ProfessionalContinuitySection = () => {
             <div className="px-6 lg:px-0">
                 <div className="flex w-full flex-col flex-wrap items-start gap-6 pl-2.5 lg:gap-12">
                     {features.map((feature, idx) => {
-                        // If index is even (0, 2), align left. If odd (1), align right.
                         const alignmentClass = isSmallView
                             ? idx % 2 === 0
                                 ? 'self-start'
@@ -93,11 +104,10 @@ export const ProfessionalContinuitySection = () => {
                                         className={cn(wrapperClass)}
                                         title={feature.title}
                                         description={feature.desc}
-                                        onClick={() => setActiveFeatureIdx(idx)}
+                                        onClick={featureModals[idx]?.onOpen}
                                     />
                                 </div>
 
-                                {/* Only render the separator if it's NOT the last item */}
                                 {isSmallView && idx < features.length - 1 && (
                                     <Separator />
                                 )}
@@ -107,13 +117,13 @@ export const ProfessionalContinuitySection = () => {
                 </div>
             </div>
 
-            <PowerYourActivityModal isOpen={activeFeatureIdx === 0} onOpenChange={handleClose} />
-            <AutonomousEnergyModal isOpen={activeFeatureIdx === 1} onOpenChange={handleClose} />
-            <SecureResilientModal isOpen={activeFeatureIdx === 2} onOpenChange={handleClose} />
-            <NextGenConnectivityModal isOpen={activeFeatureIdx === 3} onOpenChange={handleClose} />
-            <PrivateSovereignCloudModal isOpen={activeFeatureIdx === 4} onOpenChange={handleClose} />
-            <MultiNodesSplittedFilesModal isOpen={activeFeatureIdx === 5} onOpenChange={handleClose} />
-            <BuiltForEverydayReliabilityModal isOpen={activeFeatureIdx === 6} onOpenChange={handleClose} />
+            <PowerYourActivityModal isOpen={powerYourActivityModal.isOpen} onOpenChange={powerYourActivityModal.onOpenChange} />
+            <AutonomousEnergyModal isOpen={autonomousEnergyModal.isOpen} onOpenChange={autonomousEnergyModal.onOpenChange} />
+            <SecureResilientModal isOpen={secureResilientModal.isOpen} onOpenChange={secureResilientModal.onOpenChange} />
+            <NextGenConnectivityModal isOpen={nextGenConnectivityModal.isOpen} onOpenChange={nextGenConnectivityModal.onOpenChange} />
+            <PrivateSovereignCloudModal isOpen={privateSovereignCloudModal.isOpen} onOpenChange={privateSovereignCloudModal.onOpenChange} />
+            <MultiNodesSplittedFilesModal isOpen={multiNodesSplittedFilesModal.isOpen} onOpenChange={multiNodesSplittedFilesModal.onOpenChange} />
+            <BuiltForEverydayReliabilityModal isOpen={builtForEverydayModal.isOpen} onOpenChange={builtForEverydayModal.onOpenChange} />
         </ResponsiveContainer>
     );
 };

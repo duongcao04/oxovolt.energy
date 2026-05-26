@@ -7,7 +7,7 @@ import { DataContinuityModal } from '../modals/data-continuity-modal';
 import { ResponsiveContainer } from '@/components/layout';
 // import graphic02 from '@/assets/graphic/graphic-02.png';
 // import graphic01 from '@/assets/graphic/graphic-01.png';
-import { useDevice, useDisclosure } from '@/hooks';
+import { useDevice, useModalHash } from '@/hooks';
 import { useTranslation } from 'react-i18next';
 import { Separator } from '@heroui/react';
 import { ArrowRight } from 'lucide-react';
@@ -18,10 +18,10 @@ export const HeroSection = () => {
     const { t } = useTranslation();
     const { isSmallView } = useDevice();
 
-    const secureModal = useDisclosure();
-    const dataModal = useDisclosure();
-    const energyModal = useDisclosure();
-    const connectivityModal = useDisclosure();
+    const secureModal = useModalHash('secure-your-practice');
+    const dataModal = useModalHash('data-continuity');
+    const energyModal = useModalHash('energy-continuity');
+    const connectivityModal = useModalHash('connectivity-continuity');
 
     return (
         <>

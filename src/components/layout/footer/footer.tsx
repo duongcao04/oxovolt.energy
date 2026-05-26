@@ -1,7 +1,7 @@
 import { LoopxcellDatasheetModal } from '../../../features/home/loopxcell/_components/loopxcell-datasheet-modal';
 import { AboutModal } from '../../../features/home/_components/modals/about-modal';
 import { LanguageSwitcher } from '../../language-switcher';
-import { useDevice, useDisclosure } from '../../../hooks';
+import { useDevice, useDisclosure, useModalHash } from '../../../hooks';
 import { ThemeSwitcher } from '../header/theme-switcher';
 import { useTranslation } from 'react-i18next';
 import { APP_CONFIG } from '../../../config';
@@ -10,7 +10,7 @@ export const Footer = () => {
     const { t } = useTranslation();
     const { isSmallView } = useDevice();
 
-    const aboutModal = useDisclosure();
+    const aboutModal = useModalHash('about-oxovolt');
     const datasheetModal = useDisclosure();
 
     return (
