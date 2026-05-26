@@ -15,9 +15,23 @@ declare module '@tanstack/react-router' {
     }
 }
 
-// Strip any modal hash left in URL from a previous session
+// Strip section-scroll anchors from URL on page load to prevent unwanted jumps.
+// Modal hashes are preserved so they can auto-open.
+const SECTION_ANCHORS = new Set([
+    'environment',
+    'professional-practices',
+    'loopXcell-series',
+    'sovereign-infrastructure',
+    'kameleo-series',
+    'they-choose-oxovolt',
+    'our-solutions',
+    'get-started-now',
+]);
 if (window.location.hash) {
-    window.history.replaceState({}, '', window.location.pathname + window.location.search);
+    const hash = window.location.hash.slice(1);
+    if (SECTION_ANCHORS.has(hash)) {
+        window.history.replaceState({}, '', window.location.pathname + window.location.search);
+    }
 }
 
 const pathLang = window.location.pathname.split('/')[1];
