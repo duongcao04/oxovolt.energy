@@ -63,10 +63,10 @@ export function ImmersionCoolingModal({
                                 : 'max-h-[95vh] lg:rounded-[32px] lg:p-0',
                         )}
                     >
-                        <Modal.CloseTrigger className="text-text-subdued top-4 right-4 z-50 rounded-lg bg-slate-100 p-2 shadow-sm transition-colors hover:bg-slate-200 sm:top-6 sm:right-6 lg:top-8 lg:right-8 dark:bg-slate-800 dark:hover:bg-slate-700" />
+                        <Modal.CloseTrigger className="text-text-subdued top-4 right-4 z-50 rounded-lg bg-slate-100 p-2 shadow-sm transition-colors hover:bg-slate-200 sm:top-6 sm:right-6 lg:top-4 lg:right-7 dark:bg-slate-800 dark:hover:bg-slate-700" />
 
-                        <Modal.Body className="p-0">
-                            <div className="flex flex-col p-6 pt-12 pb-0 sm:p-10 lg:grid lg:grid-cols-12 lg:gap-10 lg:p-12 lg:pb-0">
+                        <Modal.Body className="p-6 pt-12 pb-0 sm:p-10 lg:p-12 lg:pb-0 lg:pt-16">
+                            <div className="flex flex-col lg:grid lg:grid-cols-12 lg:gap-10">
                                 {/* Left Column (4 cols) */}
                                 <div className="flex flex-col gap-6 pb-8 lg:col-span-4 lg:pb-12">
                                     <div className="flex flex-col gap-4">
