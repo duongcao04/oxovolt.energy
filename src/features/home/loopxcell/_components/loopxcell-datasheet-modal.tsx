@@ -1,5 +1,5 @@
 import { MobileLoopxcellDatasheetModal } from './mobile/mobile-loopxcell-datasheet-modal';
-import LoopxcellImg from '@/assets/loopxcell-series/01.png';
+import BatteryImage from '@/assets/batteries/v2-oxovolt-battery.png';
 import { Icon } from '@iconify-icon/react';
 import { Modal } from '@heroui/react';
 import { QrCode } from 'lucide-react';
@@ -121,7 +121,7 @@ export function LoopxcellDatasheetModal({
 
                                     <div className="mb-6 flex w-full justify-center px-6">
                                         <Image
-                                            src={LoopxcellImg}
+                                            src={BatteryImage}
                                             alt="LoopXcell 40 kWh"
                                             className="w-full max-w-[180px] object-contain drop-shadow-md"
                                             preview={false}
@@ -181,7 +181,7 @@ export function LoopxcellDatasheetModal({
                                                     value: '64 Vdc',
                                                 },
                                                 {
-                                                    label: 'Partitions Cells',
+                                                    label: 'Partitions Cells (Unlockable)',
                                                     value: '6 x 6 kWh',
                                                 },
                                                 {

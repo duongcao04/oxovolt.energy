@@ -1,5 +1,5 @@
 import { QrCode, ChevronLeft, ChevronRight } from 'lucide-react';
-import LoopxcellImg from '@/assets/loopxcell-series/01.png';
+import BatteryImage from '@/assets/batteries/v2-oxovolt-battery.png';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Modal, Button } from '@heroui/react';
 import { Icon } from '@iconify-icon/react';
@@ -120,7 +120,7 @@ export function MobileLoopxcellDatasheetModal({
 
             <div className="mb-6 flex w-full justify-center px-6">
                 <Image
-                    src={LoopxcellImg}
+                    src={BatteryImage}
                     alt="LoopXcell 40 kWh"
                     className="w-full max-w-[180px] object-contain drop-shadow-md"
                     preview={false}
@@ -165,7 +165,7 @@ export function MobileLoopxcellDatasheetModal({
                         { label: 'Usable Energy', value: '36 kWh' },
                         { label: 'Nominal Voltage', value: '48 Vdc' },
                         { label: 'Voltage Max (Pack)', value: '64 Vdc' },
-                        { label: 'Partitions Cells', value: '6 x 6 kWh' },
+                        { label: 'Partitions Cells (Unlockable)', value: '6 x 6 kWh' },
                         { label: 'Débridable On Demand', value: 'YES' },
                         { label: 'Minimum Activated Partition', value: '2' },
                         { label: 'Depth of Discharge', value: '> 100 %' },
