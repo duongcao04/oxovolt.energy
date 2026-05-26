@@ -196,7 +196,7 @@ export const ContactForm = ({ className }: { className?: string }) => {
                 {({ isPending }) => (
                     <>
                         {isPending ? (
-                            <div className='flex items-center justify-center gap-2'>
+                            <div className="flex items-center justify-center gap-2">
                                 <Spinner color="current" size="sm" />
                                 Submitting...
                             </div>
@@ -209,7 +209,8 @@ export const ContactForm = ({ className }: { className?: string }) => {
 
             <div className="mt-6 flex flex-col items-center text-center">
                 <p className="text-text-default text-base leading-relaxed font-semibold">
-                    Your data is safe with us. Book a call with an expert.
+                    Your energy stays on. Your data stays protected. Your
+                    business stays connected.
                     <br />
                     Our daily goal is to follow you.
                 </p>

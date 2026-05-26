@@ -55,7 +55,7 @@ const stats = [
         desc: (
             <>
                 Your data is{' '}
-                <span className="font-semibold text-primary">encrypted</span>,
+                <span className="text-primary font-semibold">encrypted</span>,
                 fragmented and distributed. Ransomware cannot lock what it
                 cannot access.
             </>
@@ -136,11 +136,11 @@ export function PrivateSovereignCloudModal({
 
     const headerTitle = (
         <div className="flex flex-col gap-4 pt-4 lg:pt-0">
-            <span className="flex items-center gap-3 text-[10px] font-bold tracking-widest text-text-default uppercase sm:text-xs">
-                <div className="h-4 w-[3px] bg-primary"></div> PRIVATE
-                SOVEREIGN CLOUD
+            <span className="text-text-default flex items-center gap-3 text-[10px] font-bold tracking-widest uppercase sm:text-xs">
+                <div className="bg-primary h-4 w-[3px]"></div> PRIVATE SOVEREIGN
+                CLOUD
             </span>
-            <h2 className="text-2xl leading-snug font-medium text-text-default sm:text-3xl">
+            <h2 className="text-text-default text-2xl leading-snug font-medium sm:text-3xl">
                 Encrypted local-first architecture
                 <br className="hidden lg:block" />
                 <span className="lg:hidden"> </span>with secure access.
@@ -149,7 +149,7 @@ export function PrivateSovereignCloudModal({
     );
 
     const descriptionText = (
-        <p className="mt-6 max-w-lg text-[11px] leading-relaxed font-medium text-text-default sm:text-xs lg:mt-8">
+        <p className="text-text-default mt-6 max-w-lg text-[11px] leading-relaxed font-medium sm:text-xs lg:mt-8">
             OXOVOLT Private Sovereign Cloud is a secure, distributed storage
             architecture designed to protect what matters most.
             <br />
@@ -161,12 +161,12 @@ export function PrivateSovereignCloudModal({
     );
 
     const topHighlightBox = (
-        <div className="mt-8 flex flex-col justify-between gap-4 rounded-xl bg-primary-50/50 dark:bg-primary-50/10 p-5 sm:flex-row sm:gap-8 sm:p-6 lg:mt-0">
+        <div className="bg-primary-50/50 dark:bg-primary-50/10 mt-8 flex flex-col justify-between gap-4 rounded-xl p-5 sm:flex-row sm:gap-8 sm:p-6 lg:mt-0">
             <div className="flex flex-1 flex-col gap-2">
                 <span className="text-sm font-bold text-blue-700 sm:text-base">
                     Your data. Your rules. Your locations.
                 </span>
-                <span className="text-[11px] leading-relaxed font-medium text-text-subdued sm:text-[12px]">
+                <span className="text-text-subdued text-[11px] leading-relaxed font-medium sm:text-[12px]">
                     You choose where your data is stored, who can access it, and
                     which community nodes you trust.
                 </span>
@@ -186,12 +186,12 @@ export function PrivateSovereignCloudModal({
             {features.map((f, i) => (
                 <div
                     key={i}
-                    className="flex flex-col gap-2 border-b border-border-default pb-5 last:border-0 last:pb-0"
+                    className="border-border-default flex flex-col gap-2 border-b pb-5 last:border-0 last:pb-0"
                 >
                     <span className="text-[11px] font-bold tracking-widest text-blue-800 uppercase sm:text-xs">
                         {f.title}
                     </span>
-                    <span className="max-w-md text-[11px] leading-relaxed font-medium text-text-default sm:text-[12px]">
+                    <span className="text-text-default max-w-md text-[11px] leading-relaxed font-medium sm:text-[12px]">
                         {f.desc}
                     </span>
                 </div>
@@ -201,7 +201,7 @@ export function PrivateSovereignCloudModal({
 
     const diagram = (
         <div
-            className="mt-6 w-full overflow-x-auto rounded-xl border border-border-default bg-primary-50/50 dark:bg-primary-50/10 pt-8 pb-8 [&::-webkit-scrollbar]:hidden"
+            className="border-border-default bg-primary-50/50 dark:bg-primary-50/10 mt-6 w-full overflow-x-auto rounded-xl border pt-8 pb-8 [&::-webkit-scrollbar]:hidden"
             style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}
         >
             <div className="flex w-full min-w-[700px] flex-col px-6">
@@ -211,7 +211,7 @@ export function PrivateSovereignCloudModal({
                         <span className="text-[10px] font-bold tracking-widest text-blue-700 uppercase">
                             1. STORE LOCALLY (UNFRAGMENTED)
                         </span>
-                        <span className="text-[10px] leading-relaxed font-medium text-text-subdued">
+                        <span className="text-text-subdued text-[10px] leading-relaxed font-medium">
                             Your file is encrypted and stored locally on your
                             OXOVOLT node.
                             <br />
@@ -222,7 +222,7 @@ export function PrivateSovereignCloudModal({
                         <span className="text-[10px] font-bold tracking-widest text-blue-700 uppercase">
                             2. DISTRIBUTE COPIES (FRAGMENTED)
                         </span>
-                        <span className="text-[10px] leading-relaxed font-medium text-text-subdued">
+                        <span className="text-text-subdued text-[10px] leading-relaxed font-medium">
                             Encrypted fragments are created and distributed to
                             multiple OXOVOLT nodes across the community network.
                         </span>
@@ -231,7 +231,7 @@ export function PrivateSovereignCloudModal({
                         <span className="text-[10px] font-bold tracking-widest text-blue-700 uppercase">
                             3. SECURE ACCESS ANYWHERE
                         </span>
-                        <span className="text-[10px] leading-relaxed font-medium text-text-subdued">
+                        <span className="text-text-subdued text-[10px] leading-relaxed font-medium">
                             You access your data from anywhere. Fragments are
                             reassembled securely on your device.
                         </span>
@@ -245,7 +245,7 @@ export function PrivateSovereignCloudModal({
                         <FileText
                             size={48}
                             strokeWidth={1}
-                            className="mb-2 text-text-subdued"
+                            className="text-text-subdued mb-2"
                         />
                     </div>
 
@@ -261,10 +261,10 @@ export function PrivateSovereignCloudModal({
                             className="mb-3 h-auto w-20 drop-shadow-md lg:w-28"
                         />
                         <div className="mt-2 flex flex-col items-center text-center">
-                            <span className="text-[10px] font-bold tracking-widest text-text-default uppercase">
+                            <span className="text-text-default text-[10px] font-bold tracking-widest uppercase">
                                 LOCAL OXOVOLT NODE
                             </span>
-                            <span className="mt-1 text-[10px] text-text-subdued">
+                            <span className="text-text-subdued mt-1 text-[10px]">
                                 Unfragmented.
                                 <br />
                                 Encrypted.
@@ -453,12 +453,12 @@ export function PrivateSovereignCloudModal({
     );
 
     const statsSection = (
-        <div className="my-4 grid grid-cols-2 gap-x-4 gap-y-6 rounded-xl border border-blue-100 bg-primary-50/50 dark:bg-primary-50/10 py-6 shadow-sm lg:mt-6 lg:grid-cols-4">
+        <div className="bg-primary-50/50 dark:bg-primary-50/10 my-4 grid grid-cols-2 gap-x-4 gap-y-6 rounded-xl border border-blue-100 py-6 shadow-sm lg:mt-6 lg:grid-cols-4">
             {stats.map((s, i) => (
                 <div
                     key={i}
                     className={cn(
-                        'flex flex-col items-center gap-2 border-border-default px-4 text-center',
+                        'border-border-default flex flex-col items-center gap-2 px-4 text-center',
                         'border-l',
                         i === 0 && 'border-l-0',
                         i === 2 && 'border-l-0 lg:border-l',
@@ -467,7 +467,7 @@ export function PrivateSovereignCloudModal({
                     <span className="text-[10px] font-bold tracking-widest text-blue-700 uppercase">
                         {s.title}
                     </span>
-                    <span className="text-[10px] leading-relaxed font-medium text-text-subdued">
+                    <span className="text-text-subdued text-[10px] leading-relaxed font-medium">
                         {s.desc}
                     </span>
                 </div>
@@ -477,7 +477,7 @@ export function PrivateSovereignCloudModal({
 
     const alertBoxes = (
         <div className="mt-2 grid grid-cols-1 gap-4 md:grid-cols-2 lg:mt-6 lg:gap-6">
-            <div className="rounded-xl border border-green-100 bg-green-50/50 dark:bg-green-50/10 p-5 sm:p-6">
+            <div className="rounded-xl border border-green-100 bg-green-50/50 p-5 sm:p-6 dark:bg-green-50/10">
                 <span className="mb-6 block text-[11px] font-bold tracking-widest text-green-800 uppercase">
                     LOCAL PERFORMANCE,
                     <br />
@@ -496,32 +496,32 @@ export function PrivateSovereignCloudModal({
                         />
                     </div>
                     <div className="flex flex-col gap-4 pt-1">
-                        <span className="text-[11px] font-medium text-text-default">
+                        <span className="text-text-default text-[11px] font-medium">
                             Work seamlessly on your local, unfragmented,
                             encrypted copy.
                         </span>
-                        <span className="text-[11px] font-medium text-text-default">
+                        <span className="text-text-default text-[11px] font-medium">
                             Enjoy fast access for your daily work.
                         </span>
-                        <span className="text-[11px] font-medium text-text-default">
+                        <span className="text-text-default text-[11px] font-medium">
                             The network protects your data in the background.
                         </span>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-col justify-between rounded-xl border border-blue-100 bg-primary-50/50 dark:bg-primary-50/10 p-5 sm:p-6">
+            <div className="bg-primary-50/50 dark:bg-primary-50/10 flex flex-col justify-between rounded-xl border border-blue-100 p-5 sm:p-6">
                 <div>
                     <span className="mb-6 block text-[11px] font-bold tracking-widest text-blue-700 uppercase">
                         ONE NODE IS ENOUGH
                     </span>
                     <div className="flex items-start justify-between gap-4">
                         <div className="flex flex-1 flex-col gap-4">
-                            <span className="text-[11px] font-medium text-text-default">
+                            <span className="text-text-default text-[11px] font-medium">
                                 You only need one OXOVOLT battery node at your
                                 location.
                             </span>
-                            <span className="text-[11px] font-medium text-text-default">
+                            <span className="text-text-default text-[11px] font-medium">
                                 Your data is automatically protected by the
                                 network of community nodes you trust.
                             </span>
@@ -539,7 +539,7 @@ export function PrivateSovereignCloudModal({
                     <span className="mt-0.5 text-[9px] font-bold tracking-widest text-blue-700 uppercase">
                         BATTERY NODES
                     </span>
-                    <span className="mt-1 text-[9px] font-medium text-primary">
+                    <span className="text-primary mt-1 text-[9px] font-medium">
                         Powering a secure digital future.
                     </span>
                 </div>
@@ -548,17 +548,17 @@ export function PrivateSovereignCloudModal({
     );
 
     const bottomCombinedBox = (
-        <div className="mt-4 mb-6 flex w-full flex-col gap-6 rounded-xl border border-blue-200 bg-background p-5 lg:mt-6 lg:mb-0 lg:flex-row lg:items-center lg:gap-8 lg:p-6 lg:shadow-sm">
+        <div className="bg-background mt-4 mb-6 flex w-full flex-col gap-6 rounded-xl border border-blue-200 p-5 lg:mt-6 lg:mb-0 lg:flex-row lg:items-center lg:gap-8 lg:p-6 lg:shadow-sm">
             {/* Left part */}
             <div className="flex flex-1 items-start gap-4 lg:items-center">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-white">
+                <div className="bg-primary flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-white">
                     <Info size={24} />
                 </div>
                 <div className="flex flex-col gap-1">
                     <span className="text-[11px] font-bold tracking-widest text-[#1e1b4b] uppercase">
                         NOT A CLOUD FOR APPLICATIONS
                     </span>
-                    <span className="text-[11px] leading-relaxed font-medium text-text-subdued">
+                    <span className="text-text-subdued text-[11px] leading-relaxed font-medium">
                         OXOVOLT Private Sovereign Cloud is a secure storage
                         solution.
                         <br className="hidden lg:block" />
@@ -576,7 +576,7 @@ export function PrivateSovereignCloudModal({
                 <span className="text-[11px] font-bold tracking-widest text-[#1e1b4b] uppercase">
                     A SOVEREIGN CLOUD. YOUR WAY.
                 </span>
-                <span className="text-[11px] leading-relaxed font-medium text-text-subdued">
+                <span className="text-text-subdued text-[11px] leading-relaxed font-medium">
                     You choose the nodes. You control your data.
                     <br className="hidden lg:block" />
                     You are part of a secure, resilient and responsible
@@ -590,9 +590,9 @@ export function PrivateSovereignCloudModal({
                     <Shield
                         size={28}
                         strokeWidth={1.5}
-                        className="mb-2 text-primary"
+                        className="text-primary mb-2"
                     />
-                    <span className="text-[9px] font-bold tracking-widest text-primary uppercase">
+                    <span className="text-primary text-[9px] font-bold tracking-widest uppercase">
                         PRIVATE
                     </span>
                 </div>
@@ -600,9 +600,9 @@ export function PrivateSovereignCloudModal({
                     <Lock
                         size={28}
                         strokeWidth={1.5}
-                        className="mb-2 text-primary"
+                        className="text-primary mb-2"
                     />
-                    <span className="text-[9px] font-bold tracking-widest text-primary uppercase">
+                    <span className="text-primary text-[9px] font-bold tracking-widest uppercase">
                         SOVEREIGN
                     </span>
                 </div>
@@ -610,9 +610,9 @@ export function PrivateSovereignCloudModal({
                     <Globe
                         size={28}
                         strokeWidth={1.5}
-                        className="mb-2 text-primary"
+                        className="text-primary mb-2"
                     />
-                    <span className="text-[9px] font-bold tracking-widest text-primary uppercase">
+                    <span className="text-primary text-[9px] font-bold tracking-widest uppercase">
                         EVERYWHERE
                     </span>
                 </div>
@@ -660,13 +660,13 @@ export function PrivateSovereignCloudModal({
                 <Modal.Container size={isSmallView ? 'full' : 'cover'}>
                     <Modal.Dialog
                         className={cn(
-                            'mx-auto w-full bg-background p-0 shadow-2xl',
+                            'bg-background mx-auto w-full p-0 shadow-2xl',
                             isSmallView
                                 ? 'flex h-[100dvh] flex-col overflow-hidden rounded-none'
                                 : 'max-h-[90vh] lg:rounded-2xl lg:p-6 lg:pr-2',
                         )}
                     >
-                        <Modal.CloseTrigger className="top-4 right-4 z-50 rounded border border-border-default bg-background p-1 text-text-subdued shadow-sm transition-colors hover:bg-background-hovered sm:top-6 sm:right-6 lg:top-8 lg:right-8" />
+                        <Modal.CloseTrigger className="border-border-default bg-background text-text-subdued hover:bg-background-hovered top-4 right-4 z-50 rounded border p-1 shadow-sm transition-colors sm:top-6 sm:right-6 lg:top-8 lg:right-8" />
 
                         {isSmallView && (
                             <Modal.Header className="grid shrink-0 grid-cols-[1fr_84px_44px_84px_1fr] items-center border-b border-slate-100 px-4 pt-6 pb-4">
@@ -680,7 +680,7 @@ export function PrivateSovereignCloudModal({
                                                 'flex items-center gap-1 rounded-[100px] px-4 py-2 text-[11px] font-bold tracking-widest transition-colors',
                                                 page === 0
                                                     ? 'cursor-not-allowed border border-slate-100 bg-slate-50 text-slate-300'
-                                                    : 'border border-[#e2e8f0] bg-[#f4f7fe] text-primary hover:bg-[#ebf0fe]',
+                                                    : 'text-primary border border-[#e2e8f0] bg-[#f4f7fe] hover:bg-[#ebf0fe]',
                                             )}
                                         >
                                             <ChevronLeft
@@ -701,7 +701,7 @@ export function PrivateSovereignCloudModal({
                                             className={`h-1.5 w-1.5 rounded-full transition-colors ${page === 1 ? 'bg-primary' : 'bg-slate-300'}`}
                                         />
                                     </div>
-                                    <span className="pt-[1px] text-[10px] font-bold tracking-widest text-text-default">
+                                    <span className="text-text-default pt-[1px] text-[10px] font-bold tracking-widest">
                                         {page + 1} / 2
                                     </span>
                                 </div>
@@ -715,7 +715,7 @@ export function PrivateSovereignCloudModal({
                                                 'flex items-center gap-1 rounded-[100px] px-4 py-2 text-[11px] font-bold tracking-widest transition-colors',
                                                 page === 1
                                                     ? 'cursor-not-allowed border border-slate-100 bg-slate-50 text-slate-300'
-                                                    : 'border border-[#e2e8f0] bg-[#f4f7fe] text-primary hover:bg-[#ebf0fe]',
+                                                    : 'text-primary border border-[#e2e8f0] bg-[#f4f7fe] hover:bg-[#ebf0fe]',
                                             )}
                                         >
                                             NEXT
@@ -734,8 +734,8 @@ export function PrivateSovereignCloudModal({
                             className={cn(
                                 'mt-0 p-0',
                                 isSmallView
-                                    ? 'relative min-h-0 flex-1 bg-background'
-                                    : 'overflow-x-hidden overflow-y-auto rounded-t-2xl bg-background lg:rounded-none',
+                                    ? 'bg-background relative min-h-0 flex-1'
+                                    : 'bg-background overflow-x-hidden overflow-y-auto rounded-t-2xl lg:rounded-none',
                             )}
                         >
                             {isSmallView ? (

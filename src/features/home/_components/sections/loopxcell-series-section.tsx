@@ -9,6 +9,7 @@ import {
 import { BuiltInInvertersModal } from '../../loopxcell/_components/feature-modals/built-in-inverters-modal';
 import { MaximumEnergyModal } from '../../loopxcell/_components/feature-modals/maximum-energy-modal';
 import { LoopxcellDatasheetModal } from '../../loopxcell/_components/loopxcell-datasheet-modal';
+import { ImmersionCoolingModal } from '../modals/loopxcell-modals/immersion-cooling-modal';
 import { ModularModal } from '../../loopxcell/_components/feature-modals/modular-modal';
 import { ExtremeModal } from '../../loopxcell/_components/feature-modals/extreme-modal';
 import { LOOPXCELL_PERSONAL_CAROUSELS } from '../../_data/loopxcell-data';
@@ -16,9 +17,9 @@ import { Button, SectionSubTitle, SectionTitle } from '@/components/ui';
 import { KemeleoSeriesModal } from '../modals/kemeleo-series-modal';
 import { ResponsiveContainer } from '@/components/layout';
 import { UpdatingModal } from '@/features/(updating)';
+import { useDisclosure, useModalHash } from '@/hooks';
 import { useTranslation } from 'react-i18next';
 import { ArrowRightIcon } from 'lucide-react';
-import { useDisclosure, useModalHash } from '@/hooks';
 import { cn } from '../../../../lib';
 
 export function LoopXcellSeriesSection() {
@@ -36,7 +37,9 @@ export function LoopXcellSeriesSection() {
 
     const dataModalState = useModalHash('loopxcell-data-vault');
     const energyModalState = useModalHash('loopxcell-energy-system');
-    const connectivityModalState = useModalHash('loopxcell-connectivity-system');
+    const connectivityModalState = useModalHash(
+        'loopxcell-connectivity-system',
+    );
 
     const dataContinuityModal = useDisclosure();
     const energyContinuityModal = useDisclosure();
@@ -44,6 +47,7 @@ export function LoopXcellSeriesSection() {
 
     const datasheetModal = useModalHash('loopxcell-datasheet');
 
+    const immersionCoolingModal = useModalHash('immersion-cooling');
     const maximumEnergyModal = useModalHash('maximum-energy-density');
     const extremeModal = useModalHash('extreme-performance');
     const modularModal = useModalHash('modular-architecture');
@@ -58,6 +62,12 @@ export function LoopXcellSeriesSection() {
 
     return (
         <>
+            {immersionCoolingModal.isOpen && (
+                <ImmersionCoolingModal
+                    isOpen={immersionCoolingModal.isOpen}
+                    onOpenChange={immersionCoolingModal.onOpenChange}
+                />
+            )}
             {dataContinuityModal.isOpen && (
                 <DataContinuityModal
                     isOpen={dataContinuityModal.isOpen}
@@ -193,12 +203,22 @@ export function LoopXcellSeriesSection() {
                             {/* Short blue divider line */}
                             <div className="bg-primary my-4 h-0.5 w-10 lg:my-8"></div>
 
-                            <Button
-                                variant="outlinedBox"
-                                onClick={personalModalState.onOpen}
-                            >
-                                {t('home.loopxcell_section.button')}
-                            </Button>
+                            <div className="flex w-full flex-col items-start justify-center gap-6 lg:flex-row lg:items-center lg:justify-start">
+                                <Button
+                                    variant="outlinedBox"
+                                    onClick={personalModalState.onOpen}
+                                    className="bg-primary hover:bg-primary/60 text-white"
+                                >
+                                    {t('home.loopxcell_section.button')}
+                                </Button>
+                                <Button
+                                    variant="outlinedBox"
+                                    onClick={immersionCoolingModal.onOpen}
+                                    className="bg-primary hover:bg-primary/60 text-white"
+                                >
+                                    Immersion Cooling
+                                </Button>
+                            </div>
                         </div>
 
                         {/* Right Column */}

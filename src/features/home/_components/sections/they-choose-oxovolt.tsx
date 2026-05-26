@@ -1,6 +1,6 @@
 import { Button, SectionSubTitle, SectionTitle } from '@/components/ui';
 import { ResponsiveContainer } from '@/components/layout';
-import { ArrowRightIcon, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { cn } from '@/lib';
 
 export function TheyChooseOxovolt() {
@@ -102,10 +102,6 @@ export function TheyChooseOxovolt() {
                             )}
                             <span className="text-text-default flex items-center gap-2 text-[13px] font-bold">
                                 {stat.label}
-                                <ArrowRightIcon
-                                    size={14}
-                                    className="text-primary"
-                                />
                             </span>
                         </div>
                     ))}
@@ -127,13 +123,6 @@ export function TheyChooseOxovolt() {
                             <p className="text-text-default mb-6 text-[12px] font-bold tracking-[0.1em] whitespace-pre-line uppercase">
                                 {item.author}
                             </p>
-                            <button className="group text-primary mt-auto flex items-center gap-2 text-[12px] font-bold tracking-[0.1em] uppercase transition-colors">
-                                READ THEIR STORY
-                                <ArrowRightIcon
-                                    size={14}
-                                    className="transition-transform duration-300 group-hover:translate-x-1"
-                                />
-                            </button>
                         </div>
                     ))}
                 </div>
@@ -149,6 +138,9 @@ export function TheyChooseOxovolt() {
                     <Button
                         variant="outlinedBox"
                         className="bg-primary hover:bg-primary/60 text-white"
+                        linkProps={{
+                            hash: 'get-started-now',
+                        }}
                     >
                         I WANT THE SAME SYSTEM
                     </Button>

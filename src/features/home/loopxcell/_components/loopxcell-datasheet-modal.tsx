@@ -16,7 +16,7 @@ export function LoopxcellDatasheetModal({
     const { isSmallView } = useDevice();
 
     const footerContent = (
-        <div className="flex w-full flex-col items-center justify-between gap-6 border-t-[1.5px] border-blue-400 bg-background px-4 py-4 lg:flex-row lg:px-8 lg:py-4">
+        <div className="bg-background flex w-full flex-col items-center justify-between gap-6 border-t-[1.5px] border-blue-400 px-4 py-4 lg:flex-row lg:px-8 lg:py-4">
             {/* Text items row */}
             <div className="flex flex-1 flex-wrap items-center justify-center gap-x-2 gap-y-4 lg:justify-start lg:gap-x-4">
                 <FooterTextItem title="Lifetime" subtitle="Oxoflex Program" />
@@ -50,7 +50,7 @@ export function LoopxcellDatasheetModal({
                         <span className="text-[10px] font-bold tracking-widest text-blue-700 uppercase">
                             SCAN HERE
                         </span>
-                        <span className="text-[10px] tracking-wider text-text-subdued uppercase">
+                        <span className="text-text-subdued text-[10px] tracking-wider uppercase">
                             OFFICIAL DOCUMENTS
                         </span>
                     </div>
@@ -81,15 +81,15 @@ export function LoopxcellDatasheetModal({
                             </h1>
                         </Modal.Header>
 
-                        <Modal.Body className="mt-0 overflow-x-hidden bg-background p-0">
+                        <Modal.Body className="bg-background mt-0 overflow-x-hidden p-0">
                             {/* Main border wrapping everything */}
                             <div className="flex min-h-0 w-full flex-col border-t-[1.5px] border-blue-400 lg:flex-row">
                                 {/* LEFT SIDEBAR */}
                                 <div className="flex w-full shrink-0 flex-col border-blue-400 lg:w-[30%] lg:border-r-[1.5px] xl:w-[25%]">
                                     <div className="flex items-center justify-between border-b-[1.5px] border-blue-400 px-6 py-4">
-                                        <span className="text-xs font-bold tracking-widest text-text-default uppercase">
+                                        <span className="text-text-default text-xs font-bold tracking-widest uppercase">
                                             LOOPXCELL{' '}
-                                            <span className="font-normal text-text-subdued">
+                                            <span className="text-text-subdued font-normal">
                                                 SERIES
                                             </span>
                                         </span>
@@ -103,13 +103,13 @@ export function LoopxcellDatasheetModal({
                                             <p className="mb-0.5 text-[9px] font-bold tracking-widest text-blue-700 uppercase">
                                                 CAPACITY
                                             </p>
-                                            <p className="text-3xl font-bold tracking-tight text-text-default">
+                                            <p className="text-text-default text-3xl font-bold tracking-tight">
                                                 40 kWh
                                             </p>
                                         </div>
 
                                         <div className="flex items-center gap-2 pb-1">
-                                            <span className="text-[8px] font-bold tracking-widest text-text-default uppercase">
+                                            <span className="text-text-default text-[8px] font-bold tracking-widest uppercase">
                                                 DESIGNED & MADE IN BELGIUM
                                             </span>
                                             <Icon
@@ -194,11 +194,11 @@ export function LoopxcellDatasheetModal({
                                                 },
                                                 {
                                                     label: 'Depth of Discharge',
-                                                    value: '> 90 %',
+                                                    value: '> 100 %',
                                                 },
                                                 {
-                                                    label: 'Cycles (80% DOD)',
-                                                    value: '> 6000',
+                                                    label: 'Cycles (100% DOD)',
+                                                    value: 'Unlimited',
                                                 },
                                                 {
                                                     label: 'Warranty',
@@ -617,7 +617,7 @@ function FeatureItem({
             <h4 className="text-[10px] font-extrabold tracking-widest text-blue-700 uppercase">
                 {title}
             </h4>
-            <p className="text-[11px] leading-relaxed font-medium text-text-subdued">
+            <p className="text-text-subdued text-[11px] leading-relaxed font-medium">
                 {desc}
             </p>
         </div>
@@ -650,10 +650,10 @@ function SpecTable({
                         key={idx}
                         className="flex items-start justify-between gap-4"
                     >
-                        <span className="text-[10px] leading-snug font-bold text-text-default">
+                        <span className="text-text-default text-[10px] leading-snug font-bold">
                             {row.label}
                         </span>
-                        <span className="max-w-[140px] text-right text-[10px] leading-snug font-bold whitespace-pre-line text-text-default">
+                        <span className="text-text-default max-w-[140px] text-right text-[10px] leading-snug font-bold whitespace-pre-line">
                             {row.value}
                         </span>
                     </div>
@@ -672,10 +672,10 @@ function FooterTextItem({
 }) {
     return (
         <div className="flex flex-col items-center justify-center px-2 sm:w-auto lg:px-0">
-            <span className="text-[9px] font-bold tracking-wider text-text-default uppercase">
+            <span className="text-text-default text-[9px] font-bold tracking-wider uppercase">
                 {title}
             </span>
-            <span className="text-[9px] font-bold tracking-wider text-text-default uppercase">
+            <span className="text-text-default text-[9px] font-bold tracking-wider uppercase">
                 {subtitle}
             </span>
         </div>

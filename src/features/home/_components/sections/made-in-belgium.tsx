@@ -1,26 +1,29 @@
 import { SectionSubTitle, SectionTitle } from '@/components/ui';
 import { ResponsiveContainer } from '@/components/layout';
-import { ArrowRightIcon } from 'lucide-react';
 import { cn } from '@/lib';
 
+type SplitStat = { type: 'split'; title: string; left: { value: string; label: string }; right: { value: string; label: string } };
+type FullStat = { type: 'full'; title: string; value: string; description: string };
+type Stat = SplitStat | FullStat;
+
 export function MadeInBelgium() {
-    const stats = [
+    const stats: Stat[] = [
         {
             title: 'LOOPXCELL PACK (EXCL. CELLS)',
-            type: 'split' as const,
+            type: 'split',
             left: { value: '30%', label: '30% Asia' },
             right: { value: '70%', label: '70% Europe' },
         },
         {
             title: 'CELLS',
-            type: 'full' as const,
+            type: 'full',
             value: '100%',
             description:
                 '100% Asia — but not for long.\nPartnerships with European cell manufacturers\nare already in place for the 2028–2030 horizon.',
         },
         {
             title: 'VALUE THAT STAYS IN EUROPE',
-            type: 'full' as const,
+            type: 'full',
             value: '>70%',
             description:
                 'Today, more than 70% of our selling price\nremains in Europe.\nA strong performance already —\nand we continue to do even better tomorrow.',
@@ -89,14 +92,6 @@ export function MadeInBelgium() {
                         </div>
 
                         <div className="bg-primary mt-8 h-0.5 w-8" />
-
-                        <button className="group text-primary mt-6 flex items-center gap-2 text-[13px] font-bold tracking-[0.1em] uppercase">
-                            DISCOVER OUR APPROACH
-                            <ArrowRightIcon
-                                size={14}
-                                className="transition-transform duration-300 group-hover:translate-x-1"
-                            />
-                        </button>
                     </div>
 
                     {/* Right Column — stat blocks */}
@@ -160,10 +155,6 @@ export function MadeInBelgium() {
                             <p className="text-text-subdued mb-8 grow text-[14px] leading-relaxed font-medium whitespace-pre-line">
                                 {feature.description}
                             </p>
-                            <ArrowRightIcon
-                                size={16}
-                                className="text-primary mt-auto transition-transform duration-300 group-hover:translate-x-2"
-                            />
                         </div>
                     ))}
                 </div>
