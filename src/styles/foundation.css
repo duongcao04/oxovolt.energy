@@ -1,0 +1,185 @@
+/* =========================================
+   1. Base Variables (Light Mode)
+   ========================================= */
+:root {
+    /* Primary Palette */
+    --primary-50: oklch(0.958 0.02 279.99);
+    --primary-100: oklch(0.915 0.041 278.08);
+    --primary-200: oklch(0.823 0.089 275.13);
+    --primary-300: oklch(0.737 0.135 272.92);
+    --primary-400: oklch(0.648 0.187 267.97);
+    --primary-500: oklch(0.563 0.241 260.82);
+    --primary-600: oklch(0.476 0.204 260.82);
+    --primary-700: oklch(0.398 0.17 260.82);
+    --primary-800: oklch(0.31 0.132 260.75);
+    --primary-900: oklch(0.23 0.097 260.61);
+    --primary-950: oklch(0.181 0.077 260.83);
+
+    /* Grayscale 9-Step Scale (1: Lightest -> 9: Darkest) */
+    --text-1: hsl(0, 0%, 100%); /* Pure White / Background */
+    --text-2: hsl(0, 0%, 98%); /* Off-white */
+    --text-3: hsl(0, 0%, 94%); /* Borders / Hover */
+    --text-4: hsl(0, 0%, 88%); /* Darker borders / Disabled */
+    --text-5: hsl(0, 0%, 70%); /* Placeholders */
+    --text-6: hsl(0, 0%, 50%); /* Muted text */
+    --text-7: hsl(0, 0%, 30%); /* Secondary text */
+    --text-8: hsl(0, 0%, 15%); /* Primary text */
+    --text-9: hsl(0, 0%, 6%); /* Headings / Near-black */
+
+    /* Semantic Variables */
+    --primary: var(--primary-500);
+    --secondary: var(--color-secondary-500);
+    --highlight: oklch(0.852 0.199 91.936);
+    --brand: oklch(0.623 0.214 259.815);
+
+    /* Backgrounds & Foreground */
+    --background: var(--text-1);
+    --background-muted: var(--text-2);
+    --background-hovered: var(--primary-50);
+    --foreground: hsl(0, 0%, 0%);
+
+    /* Borders */
+    --border: var(--text-4);
+    --border-muted: var(--text-3);
+
+    /* Typography */
+    --text-default: var(--text-8);
+    --text-subdued: oklch(37.3% 0.034 259.733);
+    --text-muted: var(--text-4);
+    --text-disabled: var(--text-3);
+    --text-inverse: var(
+        --text-1
+    ); /* Replaced undefined --text-0 with pure white */
+
+    /* Misc Elements */
+    --color-link: var(--color-primary);
+    --color-currency: #252b5b;
+}
+
+/* =========================================
+   2. Dark Mode Overrides
+   ========================================= */
+.dark {
+    --highlight: oklch(0.852 0.199 91.936);
+    --brand: oklch(0.707 0.165 254.624);
+
+    /* Make sure --primary-dark is defined somewhere, or replace with a specific HSL/var */
+    --primary: hsl(211, 94%, 59%);
+    --secondary: var(--color-secondary-500);
+
+    /* Backgrounds & Foreground */
+    --background: var(--text-8);
+    --background-muted: var(--text-9);
+    --background-hovered: hsl(0, 0%, 24%);
+    --foreground: var(--text-1);
+
+    /* Borders */
+    --border: var(--text-6);
+    --border-muted: hsl(200, 3%, 23%);
+
+    /* Typography */
+    --text-default: var(--text-3);
+    --text-subdued: var(--text-5);
+    --text-muted: var(--text-6);
+    --text-disabled: var(--text-7);
+    --text-inverse: var(--text-9);
+
+    /* Misc Elements */
+    --color-link: var(--color-blue-800);
+    --color-currency: #6169a3;
+}
+
+/* =========================================
+   3. Tailwind Theme Configuration
+   ========================================= */
+@theme {
+    /* --- Base Colors --- */
+    --color-background: var(--background);
+    --color-background-muted: var(--background-muted);
+    --color-background-hovered: var(--background-hovered);
+    --color-foreground: var(--foreground);
+
+    /* --- Brand & Highlight --- */
+    --color-highlight: var(--highlight);
+    --color-brand: var(--brand);
+
+    /* --- Primary Palette --- */
+    --color-primary: var(--primary);
+    --color-primary-50: var(--primary-50);
+    --color-primary-100: var(--primary-100);
+    --color-primary-200: var(--primary-200);
+    --color-primary-300: var(--primary-300);
+    --color-primary-400: var(--primary-400);
+    --color-primary-500: var(--primary-500);
+    --color-primary-600: var(--primary-600);
+    --color-primary-700: var(--primary-700);
+    --color-primary-800: var(--primary-800);
+    --color-primary-900: var(--primary-900);
+    --color-primary-950: var(--primary-950);
+
+    /* --- Secondary Palette --- */
+    --color-secondary-50: oklch(0.967 0.015 37.95);
+    --color-secondary-100: oklch(0.942 0.027 35.02);
+    --color-secondary-200: oklch(0.877 0.059 39.26);
+    --color-secondary-300: oklch(0.82 0.094 41.85);
+    --color-secondary-400: oklch(0.754 0.141 47.17);
+    --color-secondary-500: oklch(0.695 0.158 50.06);
+    --color-secondary-600: oklch(0.581 0.132 49.55);
+    --color-secondary-700: oklch(0.475 0.108 49.91);
+    --color-secondary-800: oklch(0.359 0.082 49.88);
+    --color-secondary-900: oklch(0.254 0.057 49.59);
+    --color-secondary-950: oklch(0.19 0.044 50.29);
+
+    /* --- Grayscale & Text Mapping --- */
+    --color-text-1: var(--text-1);
+    --color-text-2: var(--text-2);
+    --color-text-3: var(--text-3);
+    --color-text-4: var(--text-4);
+    --color-text-5: var(--text-5);
+    --color-text-6: var(--text-6);
+    --color-text-7: var(--text-7);
+    --color-text-8: var(--text-8);
+    --color-text-9: var(--text-9);
+
+    --color-text-default: var(--text-default);
+    --color-text-subdued: var(--text-subdued);
+    --color-text-muted: var(--text-muted);
+    --color-text-disabled: var(--text-disabled);
+    --color-text-inverse: var(--text-inverse);
+
+    /* --- UI Elements --- */
+    --color-border: var(--border);
+    --color-border-default: var(--border);
+    --color-border-muted: var(--border-muted);
+    --color-button-hover: var(
+        --button-hover
+    ); /* Ensure --button-hover is defined somewhere */
+    --color-link: var(--color-link);
+    --color-currency: var(--color-currency);
+
+    /* --- Fonts --- */
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+    --font-saira: var(--font-saira);
+    --font-inter: var(--font-inter);
+    --font-quicksand: var(--font-quicksand);
+    --font-segoeui: var(--font-segoeui);
+
+    /* --- Shadows (Borders & Insets) --- */
+    --shadow-borderXS: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    --shadow-borderSM: 0 0 0 1px rgba(0, 0, 0, 0.08);
+    --shadow-borderMD: inset 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-borderLG: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    --shadow-borderXL: 0 0 0 2px rgba(59, 130, 246, 0.5);
+
+    /* --- Shadows (Elevations) --- */
+    --shadow-XS: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-SM:
+        0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    --shadow-MD:
+        0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --shadow-LG:
+        0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --shadow-XL:
+        0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}

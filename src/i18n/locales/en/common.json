@@ -1,0 +1,1105 @@
+{
+    "home": {
+        "hero": {
+            "subtitle": "FOR PROFESSIONAL & PREMIUM PRIVATE",
+            "mainText": "Keep",
+            "highlightText": "powered,\n protected and always connected.",
+            "tagline": "Energy storage. Secure data. Continuous connectivity.\nLifetime program. Lower costs.",
+            "desc": "Oxovolt provides an integrated ecosystem that keeps your practice running smoothly — even when the unexpected happens.",
+            "mobileDesc": "Oxovolt provides an integrated ecosystem that keeps your practice running smoothly — even when the unexpected happens.",
+            "button": "Secure Your Practice",
+            "secondButton": "Discover The Solution",
+            "chart": {
+                "classic": {
+                    "title": "CLASSIC",
+                    "desc": "Uncontrolled peaks.\nHigher costs."
+                },
+                "oxovolt": {
+                    "title": "OXOVOLT",
+                    "desc": "Smoothed consumption.\nLower costs."
+                }
+            },
+            "features": {
+                "energy": {
+                    "title": "Energy",
+                    "desc": "Smart power orchestration. Dynamic price optimization. Buy low night & day. Use smart with your team"
+                },
+                "data": {
+                    "title": "Data Vault",
+                    "desc": "Next gen Sovereign cloud. Secure. Private. Local. Splitted encrypted files. Zero interruption"
+                },
+                "connectivity": {
+                    "title": "Connectivity",
+                    "desc": "Classic/4-5G/Radio/Satellite. Always connected. Lifetime performance"
+                }
+            },
+            "modal": {
+                "energy": {
+                    "tag": "OXOVOLT Energy",
+                    "mainText": "Always on.",
+                    "highlightText": "Always powered.",
+                    "desc": "Continuous power for critical operations.\nOur hybrid energy systems are designed to run 24/7 and power your entire building — not just in backup, but as your primary, reliable energy source.",
+                    "subtitle": "Designed for continuous operation.\nBuilt to power everything. All the time.",
+                    "features": [
+                        {
+                            "title": "Continuous operation, 24/7",
+                            "desc": "Designed to power entire buildings continuously — not only during outages."
+                        },
+                        {
+                            "title": "Primary or backup. Your choice.",
+                            "desc": "Use LOOPXCELL as your main energy source or as intelligent backup infrastructure."
+                        },
+                        {
+                            "title": "Power the entire building",
+                            "desc": "Offices, infrastructure, servers, lighting, HVAC and critical systems."
+                        },
+                        {
+                            "title": "Dynamic energy optimization",
+                            "desc": "Charge automatically when electricity prices are lower. Power intelligently throughout the day."
+                        },
+                        {
+                            "title": "Integrated energy ecosystem",
+                            "desc": "Built-in inverters, solar chargers, battery intelligence, DATA VAULT and CONNECTIVITY modules."
+                        }
+                    ],
+                    "tabs": [
+                        "OFFICES",
+                        "INDUSTRY",
+                        "DATA",
+                        "CENTER",
+                        "HEALTHCARE",
+                        "PRIVATE",
+                        "OFFICES",
+                        "INFRASTRUCTURE"
+                    ]
+                },
+                "dataVault": {
+                    "tag": "DATAVAULT - Data",
+                    "mainText": "Your own data.",
+                    "highlightText": "Oxovault™, your own data.",
+                    "desc": "More than storage. Total data protection.\nOxovault™ keeps your files encrypted, split across multiple nodes with redundancy — so your data stays private, protected, and accessible at all times.",
+                    "subtitle": "You own your data.\nWe protect it without compromise.",
+                    "features": [
+                        {
+                            "title": "Encrypted, split, redundant",
+                            "desc": "Your files are encrypted, split into fragments, and distributed across multiple nodes. Built-in redundancy ensures data integrity and availability."
+                        },
+                        {
+                            "title": "Sovereign & fully private",
+                            "desc": "Your data stays yours. Stored in sovereign infrastructure you control — fully private and compliant."
+                        },
+                        {
+                            "title": "End-to-end encryption",
+                            "desc": "Your data is encrypted at every step — in transit and at rest. Zero knowledge. Zero compromise."
+                        },
+                        {
+                            "title": "Always available",
+                            "desc": "High-availability architecture with automatic failover ensures your data is accessible whenever you need it."
+                        },
+                        {
+                            "title": "Unlimited. Every type. Everywhere.",
+                            "desc": "Store all your data — any size, any format. Scalable without limits. Built for today and ready for whatever comes next."
+                        }
+                    ],
+                    "tabs": [
+                        "OFFICES",
+                        "INDUSTRY",
+                        "DATA VAULT",
+                        "HEALTHCARE",
+                        "PRIVATE",
+                        "OFFICES",
+                        "INFRASTRUCTURE"
+                    ]
+                },
+                "connectivity": {
+                    "tag": "OXOVOLT - Connectivity",
+                    "mainText": "Always connected.",
+                    "highlightText": "Always in control.",
+                    "desc": "Reliable connectivity is essential.\nOur systems keep you connected, secure, and in control — anywhere, anytime.\nBuilt for uninterrupted performance.\nDesigned for a connected world.",
+                    "subtitle": "Global reach. Local reliability.\nTotal control over your connectivity.",
+                    "features": [
+                        {
+                            "title": "Always connected",
+                            "desc": "Stay online at all times with stable, high-performance connectivity designed for uninterrupted operations."
+                        },
+                        {
+                            "title": "Multi-network & failover",
+                            "desc": "Automatic switching between multiple networks and providers ensures continuous access — even if one link goes down."
+                        },
+                        {
+                            "title": "Secure by design",
+                            "desc": "End-to-end encryption, private routing, and advanced threat protection keep your data and communications safe."
+                        },
+                        {
+                            "title": "Global coverage",
+                            "desc": "Connect across regions and continents with intelligent network routing and optimized performance."
+                        },
+                        {
+                            "title": "Centralized control",
+                            "desc": "Monitor, manage, and configure your connectivity from a single interface — with full visibility and control."
+                        }
+                    ],
+                    "tabs": [
+                        "OFFICES",
+                        "INDUSTRY",
+                        "DATA VAULT",
+                        "HEALTHCARE",
+                        "PRIVATE",
+                        "OFFICES",
+                        "INFRASTRUCTURE"
+                    ]
+                }
+            }
+        },
+        "stats": [
+            {
+                "title": "FIRE SAFE",
+                "desc": "Zero propagation"
+            },
+            {
+                "title": "ECO-FRIENDLY",
+                "desc": "Biodegradable dielectric oil"
+            },
+            {
+                "title": "SILENT",
+                "desc": "No moving parts"
+            },
+            {
+                "title": "EXTREME CONDITIONS",
+                "desc": "Dustproof, shockproof, IP68 (depending on model)"
+            },
+            {
+                "title": "100% USABLE ENERGY",
+                "desc": "All announced kWh are truly available"
+            },
+            {
+                "title": "WARRANTY",
+                "desc": "Lifetime with Amooflex Program"
+            }
+        ],
+        "professional": {
+            "tag": "Professional Continuity",
+            "mainText": "Built for uninterrupted",
+            "highlightText": "professional activity.",
+            "desc": "OXOVOLT powers your entire workspace. Offices, equipment, systems and teams — all protected, all the time.",
+            "mobileDesc": "OXOVOLT powers your entire workspace. Offices, equipment, systems and teams.",
+            "cta": "DAILY DISTRACTIONS",
+            "features": [
+                {
+                    "title": "Power Your Activity",
+                    "desc": "Powers your entire workspace.\nWithout interruption."
+                },
+                {
+                    "title": "Autonomous Energy Continuity",
+                    "desc": "Stores energy when prices are low.\nPowers your activity when prices rise."
+                },
+                {
+                    "title": "Secure & Resilient",
+                    "desc": "Keeps operating during outages\nand unstable conditions."
+                },
+                {
+                    "title": "Next Gen Connectivity",
+                    "desc": "Classic/4–5G/Radio & satellite fallback\nfor continuous communications."
+                },
+                {
+                    "title": "Private Sovereign Cloud",
+                    "desc": "Encrypted local-first architecture\nwith secure access."
+                },
+                {
+                    "title": "Multi Nodes Splitted Files",
+                    "desc": "No one can access them.\nPhysically impossible."
+                },
+                {
+                    "title": "Built For Everyday Reliability",
+                    "desc": "Designed for long-term peace of mind\nand continuous use."
+                }
+            ]
+        },
+        "architectures": {
+            "tag": "Two Energy & Architectures",
+            "mainText": "Two ways to build",
+            "highlightText": "your energy autonomy.",
+            "desc": "OXOVOLT offers two intelligent architecture paths.\nSame mission: continuous power, total control.",
+            "mobileDesc": "OXOVOLT powers your entire workspace. Offices, equipment, systems and teams.",
+            "cta": "Explore the System",
+            "footer": {
+                "textLeft": {
+                    "text1": "Both KAMELEO and LOOPXCELL are available with \n",
+                    "text2": "integrated DATA CLOUD ",
+                    "text3": "module \nand ",
+                    "text4": "CONNECTIVITY ",
+                    "text5": "connectivity modules."
+                },
+                "textRight": "One ecosystem designed\nfor uninterrupted energy."
+            },
+            "features": [
+                {
+                    "title": "Power Your Activity",
+                    "desc": "Powers your entire workspace.\nWithout interruption."
+                },
+                {
+                    "title": "Autonomous Energy Continuity",
+                    "desc": "Stores energy when prices are low.\nPowers your activity when prices rise."
+                },
+                {
+                    "title": "Secure & Resilient",
+                    "desc": "Keeps operating during outages\nand unstable conditions."
+                },
+                {
+                    "title": "Next Gen Connectivity",
+                    "desc": "4–5G & satellite fallback\nfor continuous communications."
+                },
+                {
+                    "title": "Private Sovereign Cloud",
+                    "desc": "Encrypted local-first architecture\nwith secure access."
+                },
+                {
+                    "title": "Multi Nodes Splitted Files",
+                    "desc": "No one can access them.\nPhysically impossible."
+                },
+                {
+                    "title": "Built For Everyday Reliability",
+                    "desc": "Designed for long-term peace of mind\nand continuous use."
+                }
+            ]
+        },
+        "technology": {
+            "tag": "OXOVOLT TECHNOLOGY",
+            "title": "The breakthrough\nis inside.",
+            "desc_start": "Oxovolt batteries are immersed in ",
+            "desc_end": ", a next-generation dielectric oil that redefines safety, performance and durability.",
+            "features1": [
+                {
+                    "title": "BOLTARIUM™ IMMERSION",
+                    "desc": "All critical components are immersed in a biodegradable dielectric oil.",
+                    "slogan": "Non-toxic. Non-flammable. Fire safe."
+                },
+                {
+                    "title": "SIMPLIFIED ARCHITECTURE",
+                    "desc": "Less electronics. Less components. No fans, no moving parts.",
+                    "slogan": "More reliability. Less failures."
+                },
+                {
+                    "title": "EXTREME THERMAL CONTROL",
+                    "desc": "Optimal temperature stability in all conditions. No overheating. No degradation.",
+                    "slogan": "Extreme environments. Zero stress."
+                }
+            ],
+            "features2": [
+                {
+                    "title": "FIRE SAFE",
+                    "desc": "No propagation. No toxic fumes."
+                },
+                {
+                    "title": "ECO-FRIENDLY",
+                    "desc": "Boltarium™ is intrinsically biodegradable."
+                },
+                {
+                    "title": "SILENT",
+                    "desc": "No fans. No vibrations."
+                },
+                {
+                    "title": "DUST & WATERPROOF",
+                    "desc": "Sealed design. IP68 depending on model."
+                },
+                {
+                    "title": "EXTREME CONDITIONS",
+                    "desc": "Heat, cold, storms, earthquakes... It just works."
+                },
+                {
+                    "title": "HIGH PERFORMANCE",
+                    "desc": "Maximum efficiency. 64V nominal system. More power. More yield."
+                }
+            ]
+        },
+        "solutions": {
+            "subtitle": "Two Infrastructure Philosophies",
+            "mainText": "Choose the solution",
+            "highlightText": "that fits your environment.",
+            "desc": "Two complementary approaches. One mission:\nensure your continuity. Your way.",
+            "disclaimer_start": "Powered by ",
+            "disclaimer_link": "Boltarium™",
+            "disclaimer_middle": " immersion technology",
+            "disclaimer_end": " for unmatched safety, durability and performance.",
+            "kameleo": {
+                "tag": "Kameleo Series",
+                "title": "Professional\ninfrastructure extension.",
+                "desc": "Modular battery units that seamlessly integrate\nwith your existing energy systems.\nAdd capacity. Stay in control.\nGrow at your pace.",
+                "features": [
+                    "Retrofit & hybrid compatible",
+                    "Modular & scalable",
+                    "Quick integration",
+                    "Ideal for capacity upgrades"
+                ],
+                "button": "Discover Kameleo"
+            },
+            "loopxcell": {
+                "tag": "Loopxcell Series",
+                "title": "Integrated\ncontinuity environment.",
+                "desc": "All-in-one energy system combining storage,\ninverters and intelligence in a unified,\nimmersed architecture.\nOne system. Maximum autonomy.",
+                "features": [
+                    "All-in-one integration",
+                    "Maximum safety & performance",
+                    "Optimized thermal management",
+                    "Built for long-term independence"
+                ],
+                "button": "Discover Loopxcell"
+            }
+        },
+        "kameleo_section": {
+            "tag": "KAMELEO SERIES",
+            "mainText": "Energy continuity,",
+            "highlightText": "orchestrated.",
+            "desc": "KAMELEO orchestrates your energy, data and connectivity — without including an inverter.",
+            "bulletPoints": [
+                "Store when it makes sense.",
+                "Discharge when it matters.",
+                "Keep your operations running."
+            ],
+            "slogan": "Always on. Always by your side.",
+            "features1": [
+                {
+                    "title": "INTELLIGENT ENERGY ORCHESTRATION",
+                    "desc": "KAMELEO decides when to store or release energy based on prices, usage and operations."
+                },
+                {
+                    "title": "WORKS WITH YOUR HYBRID INVERTER",
+                    "desc": "Communicates with your hybrid inverter to charge or discharge at the right time."
+                },
+                {
+                    "title": "PEAK ABSORPTION & LOAD BALANCING",
+                    "desc": "Reduces peaks and optimizes self-consumption to protect your operations and your budget."
+                },
+                {
+                    "title": "FLEXIBLE & SCALABLE",
+                    "desc": "Adaptable to your existing infrastructure. Scale storage as your needs evolve."
+                },
+                {
+                    "title": "BUILT FOR RELIABILITY",
+                    "desc": "Designed for long-term performance in demanding environments."
+                }
+            ],
+            "button": "EXPLORE THE SYSTEM",
+            "personal": "Personal",
+            "business": "Business",
+            "features2": [
+                {
+                    "title": "ENERGY",
+                    "desc": "Intelligent energy storage orchestrated for your operations."
+                },
+                {
+                    "title": "DATA",
+                    "desc": "Sovereign. Protected. Always accessible."
+                },
+                {
+                    "title": "CONNECTIVITY",
+                    "desc": "Always connected. Always reachable. Zero dependency."
+                }
+            ],
+            "view_detail": "View Detail"
+        },
+        "loopxcell_section": {
+            "tag": "LOOPXCELL SERIES",
+            "mainText": "Maximum power.",
+            "highlightText": "Minimal size.\nTotal reliability.",
+            "desc": "LOOPXCELL is a complete energy system engineered\nto deliver maximum performance in the smallest footprint.\n\nCompact, scalable and built for extreme performance.",
+            "features1": [
+                {
+                    "title": "MAXIMUM ENERGY DENSITY",
+                    "desc": "More power in less space.\nEngineered for high performance\nand efficiency."
+                },
+                {
+                    "title": "EXTREME RELIABILITY",
+                    "desc": "Industrial-grade components.\nTested for the most demanding\nconditions."
+                },
+                {
+                    "title": "MODULAR & SCALABLE",
+                    "desc": "Flexible integration.\nFrom small setups to\nlarge-scale systems."
+                },
+                {
+                    "title": "BUILT-IN INVERTERS &\nSOLAR CHARGERS",
+                    "desc": "Integrated power electronics.\nSeamless energy conversion and\nsolar charging — all in one."
+                }
+            ],
+            "button": "DISCOVER IN IMAGE",
+            "personal": "Personal",
+            "business": "Business",
+            "features2": [
+                {
+                    "title": "ENERGY",
+                    "desc": "Dynamic energy optimization.\nPowered at the right moment."
+                },
+                {
+                    "title": "DATA VAULT",
+                    "desc": "OXOVAULT™ sovereign cloud.\nEncrypted split-node storage."
+                },
+                {
+                    "title": "CONNECTIVITY",
+                    "desc": "Classic / 4–5G / Radio / Satellite.\nAlways connected. Always on."
+                }
+            ],
+            "view_detail": "View Detail"
+        },
+        "professional_practices_section": {
+            "tag": "FOR PROFESSIONAL PRACTICES",
+            "mainText": "Your mission.",
+            "highlightText": "Nothing gets in the\nway.",
+            "desc1": "Instability, dependence, unpredictable costs.\nThese are not exceptional problems.\nThey are daily distractions.",
+            "desc2": "We built OXOVOLT to eliminate those distractions\nso you can focus on your mission.",
+            "button": "DISCOVER THE SERIES",
+            "right1": "OXOVOLT is not just energy storage.\nIt is a sovereign ecosystem that guarantees\nthe continuity of your critical operations.",
+            "right2": "Local energy. Maximum availability.\nProtected data. Always accessible.\nResilient connectivity. Zero dependency.",
+            "right3": "One system. Always ON.",
+            "bottomLeft": "You didn't choose your profession\nto manage power, clouds or networks.\nYou handle what truly matters.",
+            "bottomRight1": "We handle the invisible so you can continue your missions.",
+            "bottomRight2": "Quiet. Reliable. Continuous."
+        },
+        "modals": {
+            "secure_your_practice": {
+                "tag": "OXOVOLT SOLUTIONS",
+                "mainText": "Secure your practice.",
+                "highlightText": "Power your continuity.",
+                "subtitle": "Designed for liberal professionals who cannot afford unplanned downtime.",
+                "desc": "Oxovolt delivers a complete energy and data resilience solution that keeps your practice, your systems and your clients protected — 24/7, all year round.",
+                "features": [
+                    {
+                        "title": "Continuous operation, 24/7",
+                        "desc": "Designed to power your practice continuously — not only during outages."
+                    },
+                    {
+                        "title": "Primary or backup. Your choice.",
+                        "desc": "Use LOOPXCELL as your main energy source or as intelligent backup infrastructure."
+                    },
+                    {
+                        "title": "Power your entire practice",
+                        "desc": "Offices, equipment, servers, lighting, HVAC and all critical systems."
+                    },
+                    {
+                        "title": "Dynamic energy optimization",
+                        "desc": "Charge automatically when electricity prices are lower. Power intelligently throughout the day."
+                    },
+                    {
+                        "title": "Integrated energy ecosystem",
+                        "desc": "Built-in inverters, solar chargers, battery intelligence, DATA VAULT and CONNECTIVITY modules."
+                    }
+                ],
+                "tabs": [
+                    "OFFICES",
+                    "LAW FIRMS",
+                    "MEDICAL PRACTICES",
+                    "ACCOUNTANTS",
+                    "ARCHITECTS",
+                    "CONSULTANTS",
+                    "PRIVATE PRACTICES"
+                ]
+            },
+            "header": {
+                "energy": "Energy",
+                "data": "Data",
+                "connectivity": "Connectivity"
+            },
+            "energy": {
+                "tag": "ENERGY CONTINUITY",
+                "title_main": "Power that never stops.",
+                "title_highlight": "Always on.",
+                "desc": "OXOVOLT ensures uninterrupted power so your operations keep running — no interruption, no disruption.",
+                "features_left": [
+                    {
+                        "title": "UNINTERRUPTED POWER",
+                        "desc": "Keep your critical systems running, even during outages or grid failures."
+                    },
+                    {
+                        "title": "AUTOMATIC & INSTANT",
+                        "desc": "Seamless switch to battery power in milliseconds. No manual action."
+                    },
+                    {
+                        "title": "RELIABLE WHEN IT MATTERS",
+                        "desc": "Engineered for stability and performance, whenever you need it."
+                    },
+                    {
+                        "title": "BUILT FOR ENERGY CONTINUITY",
+                        "desc": "Robust, safe and durable technology for total peace of mind."
+                    }
+                ],
+                "features_right_title_main": "Integrated Intelligence.",
+                "features_right_title_highlight": "Everything you need. Built-in.",
+                "features_right": [
+                    {
+                        "title": "ADVANCED BATTERY SYSTEM",
+                        "desc": "High-performance cells, active balancing and thermal control for maximum reliability and longevity."
+                    },
+                    {
+                        "title": "ULTRA HIGH EFFICIENCY",
+                        "desc": "Industry-leading energy conversion for minimal losses and maximum output."
+                    },
+                    {
+                        "title": "SMART 3-PHASE BALANCING",
+                        "desc": "Balances phases in real time without autotransformer. More efficient. More reliable."
+                    },
+                    {
+                        "title": "BUILT FOR RELIABILITY",
+                        "desc": "Engineered for long-term performance in real-world conditions."
+                    },
+                    {
+                        "title": "LIQUID COOLING TECHNOLOGY",
+                        "desc": "Optimal thermal management for consistent performance and extended lifespan."
+                    },
+                    {
+                        "title": "COMPACT & DURABLE",
+                        "desc": "Robust design. Built to last. Made for any environment."
+                    }
+                ],
+                "card_title": [
+                    "Energy.",
+                    "Secure by design.",
+                    "Continuity.",
+                    "Always on."
+                ],
+                "card_desc": "Your energy stays available — everywhere, all the time.",
+                "cloud": {
+                    "title1": "ENERGY CONTINUITY CLOUD",
+                    "desc1": "Decentralized network of energy nodes. Your power is managed and distributed across the network for maximum availability and resilience.",
+                    "list1": [
+                        "Energy integrity at every level",
+                        "Only you have the full control"
+                    ],
+                    "title2": "UNBREAKABLE ENERGY CONTINUITY",
+                    "desc2": "Intelligent energy management ensures zero downtime. When one power source fails, another takes over.",
+                    "list2": [
+                        "Automatic failover",
+                        "Always powered",
+                        "Even when everything else fails"
+                    ]
+                },
+                "bottom_grid": [
+                    {
+                        "title": "DECENTRALIZED",
+                        "desc": "No single point of failure"
+                    },
+                    {
+                        "title": "HYPER SAFE",
+                        "desc": "Protected systems and users"
+                    },
+                    {
+                        "title": "RESILIENT",
+                        "desc": "Built for any situation"
+                    },
+                    {
+                        "title": "PRIVATE & SOVEREIGN",
+                        "desc": "Your energy, your control"
+                    }
+                ],
+                "footer_left_title": "ENERGY CONTINUITY,\nYOU CAN COUNT ON.",
+                "footer_left_desc": "Reliable power. Intelligent design.\nTotal peace of mind.",
+                "footer_stats": [
+                    {
+                        "val": ">97%",
+                        "label": "SYSTEM AVAILABILITY"
+                    },
+                    {
+                        "val": "0",
+                        "label": "POWER DOWNTIME"
+                    },
+                    {
+                        "val": "100%",
+                        "label": "ENERGY PROTECTED"
+                    }
+                ],
+                "footer_belgium": "BUILT IN BELGIUM",
+                "footer_btn1": "DISCOVER ENERGY CONTINUITY",
+                "footer_btn2": "TECHNICAL SPECIFICATIONS"
+            },
+            "data": {
+                "tag": "DATA CONTINUITY",
+                "title_main": "Your data.",
+                "title_highlight": "Always protected.",
+                "desc": "OXOVOLT ensures your data remains protected, accessible and secure — no matter what happens.",
+                "features_left": [
+                    {
+                        "title": "DATA ALWAYS AVAILABLE",
+                        "desc": "Your data stays accessible, even during outages or disruptions."
+                    },
+                    {
+                        "title": "SECURE BY DESIGN",
+                        "desc": "Advanced safeguards and built-in resilience protect your data at every layer."
+                    },
+                    {
+                        "title": "RELIABLE WHEN IT MATTERS",
+                        "desc": "Engineered for stability and performance, whenever you need it."
+                    },
+                    {
+                        "title": "BUILT FOR DATA CONTINUITY",
+                        "desc": "Robust, safe and durable technology for total peace of mind."
+                    }
+                ],
+                "features_right_title_main": "Integrated Intelligence.",
+                "features_right_title_highlight": "Everything you need. Built-in.",
+                "features_right": [
+                    {
+                        "title": "DATA INTEGRITY",
+                        "desc": "Continuous protection against corruption, loss and unauthorized access."
+                    },
+                    {
+                        "title": "BUILT FOR RELIABILITY",
+                        "desc": "Designed for long-term performance in real-world conditions."
+                    },
+                    {
+                        "title": "SMART DATA MANAGEMENT",
+                        "desc": "Ensures consistency and availability across all systems and applications."
+                    },
+                    {
+                        "title": "COMPACT & DURABLE",
+                        "desc": "Robust design. Built to last. Made for any environment."
+                    },
+                    {
+                        "title": "ADVANCED DATA PROTECTION",
+                        "desc": "Encryption, redundancy and monitoring for maximum data security."
+                    },
+                    {
+                        "title": "ZERO DATA LOSS",
+                        "desc": "Resilient architecture that keeps your data safe, always."
+                    }
+                ],
+                "card_title": [
+                    "Data.",
+                    "Secure by design.",
+                    "Continuity.",
+                    "Always on."
+                ],
+                "card_desc": "Your data stays protected, accessible and secure — everywhere, all the time.",
+                "cloud": {
+                    "title1": "DATA CONTINUITY CLOUD",
+                    "desc1": "Decentralized network of secure data nodes. Your data is replicated and distributed across the network for maximum availability, privacy and resilience.",
+                    "list1": [
+                        "Data integrity at every level",
+                        "Only you have the full control"
+                    ],
+                    "title2": "UNBREAKABLE DATA CONTINUITY",
+                    "desc2": "Integrated 4G, satellite, fiber and VDSL modules ensure zero downtime. When one connection fails, another takes over.",
+                    "list2": [
+                        "Automatic failover",
+                        "Always connected",
+                        "Even when everything else fails"
+                    ]
+                },
+                "bottom_grid": [
+                    {
+                        "title": "DECENTRALIZED",
+                        "desc": "No single point of failure"
+                    },
+                    {
+                        "title": "ENCRYPTED",
+                        "desc": "End-to-end data protection"
+                    },
+                    {
+                        "title": "RESILIENT",
+                        "desc": "Built for any situation"
+                    },
+                    {
+                        "title": "PRIVATE & SOVEREIGN",
+                        "desc": "Your data, your control"
+                    }
+                ],
+                "footer_left_title": "DATA CONTINUITY,\nYOU CAN COUNT ON.",
+                "footer_left_desc": "Secure. Accessible. Always available.\nTotal peace of mind.",
+                "footer_stats": [
+                    {
+                        "val": "100%",
+                        "label": "DATA AVAILABILITY"
+                    },
+                    {
+                        "val": "0",
+                        "label": "DATA LOSS"
+                    },
+                    {
+                        "val": "100%",
+                        "label": "DATA PROTECTED"
+                    }
+                ],
+                "footer_belgium": "BUILT IN BELGIUM",
+                "footer_btn1": "DISCOVER DATA CONTINUITY",
+                "footer_btn2": "TECHNICAL SPECIFICATIONS"
+            },
+            "connectivity": {
+                "tag": "CONNECTIVITY CONTINUITY",
+                "title_main": "Stay connected.",
+                "title_highlight": "Always.",
+                "desc": "OXOVOLT ensures uninterrupted connectivity so your operations stay connected — no interruption, no disruption.",
+                "features_left": [
+                    {
+                        "title": "MULTI-NETWORK INTEGRATION",
+                        "desc": "Seamless connectivity with fiber, 4G-5G, satellite and Entropia Data Radio (where available)."
+                    },
+                    {
+                        "title": "AUTOMATIC FAILOVER",
+                        "desc": "Instant and intelligent switching between networks in milliseconds. No manual action."
+                    },
+                    {
+                        "title": "RELIABLE EVERYWHERE",
+                        "desc": "Engineered for the most demanding environments and remote locations."
+                    },
+                    {
+                        "title": "BUILT FOR CONNECTIVITY CONTINUITY",
+                        "desc": "Robust, secure and future-ready technology for total peace of mind."
+                    }
+                ],
+                "features_right_title_main": "Integrated Intelligence.",
+                "features_right_title_highlight": "Everything you need. Built-in.",
+                "features_right": [
+                    {
+                        "title": "MULTI-NETWORK MODULES",
+                        "desc": "Integrated fiber, 4G-5G, satellite and Entropia Data Radio modules for maximum coverage and reliability."
+                    },
+                    {
+                        "title": "WIDE COVERAGE",
+                        "desc": "Global reach with satellite, mobile and regional radio networks (Entropia Data Radio where available)."
+                    },
+                    {
+                        "title": "INTELLIGENT NETWORK MANAGEMENT",
+                        "desc": "Monitors all connections in real time and selects the best available path."
+                    },
+                    {
+                        "title": "BUILT FOR RELIABILITY",
+                        "desc": "Engineered for 24/7 connectivity in the most challenging conditions."
+                    },
+                    {
+                        "title": "SEAMLESS CONNECTIVITY",
+                        "desc": "Blazing-fast failover ensures continuous connectivity with no session drop."
+                    },
+                    {
+                        "title": "COMPACT & DURABLE",
+                        "desc": "Rugged design. Built to last. Made for any environment."
+                    }
+                ],
+                "card_title": [
+                    "Connectivity.",
+                    "Secure by design.",
+                    "Continuity.",
+                    "Always on."
+                ],
+                "card_desc": "Your connection stays active — everywhere, all the time.",
+                "cloud": {
+                    "title1": "CONNECTIVITY CLOUD",
+                    "desc1": "Decentralized network of connectivity nodes. Your data flows through the best available network for maximum performance, redundancy and resilience.",
+                    "list1": [
+                        "Real-time network health monitoring",
+                        "You stay in control"
+                    ],
+                    "title2": "UNBREAKABLE CONNECTIVITY",
+                    "desc2": "Intelligent network orchestration ensures zero downtime. When one network fails, another takes over.",
+                    "list2": [
+                        "Automatic failover",
+                        "Always connected",
+                        "Even when everything else fails"
+                    ]
+                },
+                "bottom_grid": [
+                    {
+                        "title": "ZERO INTERRUPTION",
+                        "desc": "No session drop, ever"
+                    },
+                    {
+                        "title": "INTELLIGENT ROUTING",
+                        "desc": "Best path, always"
+                    },
+                    {
+                        "title": "HIGH RESILIENCE",
+                        "desc": "Multiple networks, one connection"
+                    },
+                    {
+                        "title": "SECURE BY DESIGN",
+                        "desc": "Encrypted and protected"
+                    },
+                    {
+                        "title": "PRIVATE & SOVEREIGN",
+                        "desc": "Your data, your control"
+                    }
+                ],
+                "footer_left_title": "CONNECTIVITY CONTINUITY,\nYOU CAN COUNT ON.",
+                "footer_left_desc": "Reliable. Intelligent. Uninterrupted.\nTotal peace of mind.",
+                "footer_stats": [
+                    {
+                        "label": "MULTI-NETWORK",
+                        "val": "4",
+                        "desc": "CLASSIC • FIBER • 4G-5G • SATELLITE\nENTROPIA RADIO"
+                    },
+                    {
+                        "label": "AUTO FAILOVER",
+                        "val": "<20ms",
+                        "desc": "SEAMLESS SWITCHING"
+                    },
+                    {
+                        "label": "UPTIME",
+                        "val": ">99,99%",
+                        "desc": "CONNECTED"
+                    },
+                    {
+                        "label": "GLOBAL COVERAGE",
+                        "val": "ANYWHERE",
+                        "desc": "ALWAYS CONNECTED"
+                    },
+                    {
+                        "label": "BUILT FOR ANYWHERE",
+                        "val": "",
+                        "desc": "REMOTE • MOBILE • FIXED"
+                    }
+                ],
+                "footer_btn1": "DISCOVER CONNECTIVITY CONTINUITY",
+                "footer_btn2": "TECHNICAL SPECIFICATIONS"
+            }
+        },
+        "continuity": {
+            "subtitle": "Professional Continuity",
+            "title": "Built for uninterrupted\nprofessional activity.",
+            "desc": "OXOVOLT protects what keeps your practice, office or firm running.\nQuiet, autonomous infrastructure that ensures continuity, safety and peace of mind — every day.",
+            "button": "My Environment",
+            "features1": [
+                {
+                    "title": "Reliable Continuity",
+                    "desc": "Your activity continues.\nNo interruption, no stress,\neven when external systems fail."
+                },
+                {
+                    "title": "Total Tranquility",
+                    "desc": "Silent. Invisible. Always ready.\nFocus on your work,\nwe take care of the rest."
+                },
+                {
+                    "title": "Dedicated Support",
+                    "desc": "A responsive team,\nclear answers,\nhuman service, always."
+                }
+            ],
+            "features2": [
+                {
+                    "title": "Protect your activity",
+                    "desc": "Safeguard your operations, your data and your clients' trust."
+                },
+                {
+                    "title": "Sustainable & Responsible",
+                    "desc": "Environmentally responsible technology, designed for the long term."
+                },
+                {
+                    "title": "Silent by Design",
+                    "desc": "No noise, no vibration, no disruption to your environment."
+                },
+                {
+                    "title": "Secure & Resilient",
+                    "desc": "Engineered to perform in all conditions. Rains, storms, outages — it just works."
+                },
+                {
+                    "title": "Built to Last",
+                    "desc": "Premium components, built for durability and peace of mind."
+                }
+            ]
+        },
+        "last": {
+            "title_main": "Continuity you\nnever have to",
+            "title_highlight": "think about.",
+            "about": "About"
+        }
+    },
+    "kameleo": {
+        "energy": {
+            "tag": "ENERGY CONTINUITY",
+            "title1": "Stay powered.",
+            "title2": "Always.",
+            "desc": "OXOVOLT Kameleo ensures uninterrupted power for what matters most.\n\nWhen the grid goes down, your energy keeps flowing.",
+            "continuity": "Energy continuity.",
+            "power_never_stops": "Power that never stops.",
+            "features": {
+                "uninterrupted": {
+                    "title": "UNINTERRUPTED POWER",
+                    "desc": "Keep your essential systems running during outages and power disruptions."
+                },
+                "automatic": {
+                    "title": "AUTOMATIC & INSTANT",
+                    "desc": "Seamless switch to battery power in milliseconds. No manual action needed."
+                },
+                "reliable": {
+                    "title": "RELIABLE WHEN IT MATTERS",
+                    "desc": "Designed for stability and performance, whenever you need it."
+                },
+                "built_for": {
+                    "title": "BUILT FOR CONTINUITY",
+                    "desc": "Robust, safe and durable technology for total peace of mind."
+                }
+            },
+            "protection": {
+                "title": "Power protection\nfor your world.",
+                "subtitle": "Every second. Every time.",
+                "home": {
+                    "title": "YOUR HOME",
+                    "desc": "Comfort, security and peace of mind."
+                },
+                "business": {
+                    "title": "YOUR BUSINESS",
+                    "desc": "Productivity, systems and operations."
+                },
+                "infrastructure": {
+                    "title": "YOUR INFRASTRUCTURE",
+                    "desc": "Critical systems, always protected."
+                }
+            },
+            "footer": {
+                "tag": "ENERGY CONTINUITY,\nYOU CAN COUNT ON.",
+                "desc": "Reliable power. Intelligent design.\nTotal peace of mind.",
+                "always_on": {
+                    "title": "ALWAYS ON",
+                    "desc": "Uninterrupted\npower"
+                },
+                "instant": {
+                    "title": "INSTANT PROTECTION",
+                    "desc": "Automatic switchover\nin milliseconds"
+                },
+                "dependable": {
+                    "title": "DEPENDABLE",
+                    "desc": "Stable and secure\nperformance"
+                },
+                "peace_of_mind": {
+                    "title": "PEACE OF MIND",
+                    "desc": "Focus on what matters.\nWe power the rest."
+                }
+            }
+        },
+        "data": {
+            "tag": "DATA CONTINUITY",
+            "title1": "Your data.",
+            "title2": "Always protected.",
+            "desc": "Your data remains protected, accessible and secure.\n\nWhen it matters most, your data stays available.",
+            "continuity": "Data continuity.",
+            "remains_protected": "Your data remains protected, accessible and secure.",
+            "features": {
+                "accessible": {
+                    "title": "ALWAYS ACCESSIBLE",
+                    "desc": "Keep your data available and accessible, even during outages and disruptions."
+                },
+                "secure": {
+                    "title": "SECURE BY DESIGN",
+                    "desc": "Your data is protected with advanced safeguards and built-in resilience."
+                },
+                "reliable": {
+                    "title": "RELIABLE WHEN IT MATTERS",
+                    "desc": "Designed for stability and performance, whenever you need it."
+                },
+                "built_for": {
+                    "title": "BUILT FOR DATA CONTINUITY",
+                    "desc": "Robust, safe and durable technology for complete peace of mind."
+                }
+            },
+            "protection": {
+                "title": "Data protection\nfor your world.",
+                "subtitle": "Every second. Every time.",
+                "home": {
+                    "title": "YOUR HOME",
+                    "desc": "Peace of mind for your personal data and devices."
+                },
+                "business": {
+                    "title": "YOUR BUSINESS",
+                    "desc": "Keep critical data and operations running."
+                },
+                "infrastructure": {
+                    "title": "YOUR INFRASTRUCTURE",
+                    "desc": "Ensure systems and data stay protected."
+                }
+            },
+            "footer": {
+                "tag": "DATA CONTINUITY,\nYOU CAN COUNT ON.",
+                "desc": "Reliable. Secure. Always available.\nTotal peace of mind.",
+                "always_available": {
+                    "title": "ALWAYS AVAILABLE",
+                    "desc": "Your data stays\naccessible."
+                },
+                "secure": {
+                    "title": "SECURE BY DESIGN",
+                    "desc": "Advanced protection\nfor your data."
+                },
+                "reliable": {
+                    "title": "RELIABLE",
+                    "desc": "Consistent performance\nwhen it matters."
+                },
+                "peace_of_mind": {
+                    "title": "PEACE OF MIND",
+                    "desc": "Focus on what matters.\nWe protect your data."
+                }
+            }
+        },
+        "connectivity": {
+            "tag": "CONNECTIVITY CONTINUITY",
+            "title1": "Stay connected.",
+            "title2": "Always.",
+            "subtitle": "No interruption,\nno disruption.",
+            "desc": "OXOVOLT Kameleo integrates fiber, 4G-5G, satellite and, depending on region, Entropia Data Radio to keep your connection strong everywhere.",
+            "continuity": "Connectivity continuity.",
+            "always_connected": "Always connected. Always reliable.",
+            "features": {
+                "integration": {
+                    "title": "MULTI-NETWORK INTEGRATION",
+                    "desc": "Integrated fiber, 4G-5G, satellite and Entropia Data Radio (where available) for maximum coverage and reliability."
+                },
+                "failover": {
+                    "title": "SEAMLESS FAILOVER",
+                    "desc": "Automatic switch between networks in milliseconds. No interruption. No disruption."
+                },
+                "reliable": {
+                    "title": "BUILT FOR RELIABILITY",
+                    "desc": "Engineered for 24/7 connectivity in the most demanding environments."
+                },
+                "secure": {
+                    "title": "SECURE & MANAGED",
+                    "desc": "Your connection stays protected, monitored and optimized at all times."
+                }
+            },
+            "protection": {
+                "title": "Connectivity\nyou can count on.",
+                "subtitle": "Everywhere. Every time.",
+                "fiber": {
+                    "title": "FIBER",
+                    "desc": "High-speed, stable and secure connections."
+                },
+                "4g5g": {
+                    "title": "4G-5G",
+                    "desc": "Fast mobile connectivity with broad coverage."
+                },
+                "satellite": {
+                    "title": "SATELLITE",
+                    "desc": "Global reach, even in the most remote locations."
+                },
+                "entropia": {
+                    "title": "ENTROPIA DATA RADIO",
+                    "desc": "Powerful regional network coverage (where available)."
+                }
+            },
+            "footer": {
+                "tag": "CONNECTIVITY CONTINUITY,\nYOU CAN RELY ON.",
+                "desc": "Integrated. Intelligent. Uninterrupted.\nTotal peace of mind.",
+                "always_on": {
+                    "title": "ALWAYS ON",
+                    "desc": "Continuous connectivity\nacross all networks."
+                },
+                "failover": {
+                    "title": "INTELLIGENT FAILOVER",
+                    "desc": "Automatic network\nswitching."
+                },
+                "coverage": {
+                    "title": "WIDE COVERAGE",
+                    "desc": "Multiple technologies,\nmaximum reach."
+                },
+                "secure": {
+                    "title": "SECURE CONNECTION",
+                    "desc": "Protected, monitored\nand optimized."
+                }
+            }
+        }
+    },
+    "common": {
+        "tabs": {
+            "energy": "Energy",
+            "data": "Data",
+            "connectivity": "Connectivity"
+        },
+        "top_header": "ADVANCED ENERGY STORAGE & RESILIENT INFRASTRUCTURE — ENGINEERED IN BELGIUM",
+        "buttons": {
+            "discover": "DISCOVER KAMELEO SERIES",
+            "technical_specs": "TECHNICAL SPECIFICATIONS",
+            "more_details": "More details"
+        }
+    }
+}

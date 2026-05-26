@@ -1,0 +1,61 @@
+.ant-image-preview-root .ant-image-preview-mask {
+    background-color: #000000 !important;
+}
+
+.ant-image-preview-root,
+.ant-image-preview-root .ant-image-preview-wrap,
+.ant-image-preview-root .ant-image-preview-operations {
+    pointer-events: auto !important;
+}
+.ant-image-preview-root .ant-image-preview-operations * {
+    pointer-events: auto !important;
+}
+
+/* =================================================== */
+/* CUSTOM STYLE CHO NÚT NEXT / PREV NHƯ TRONG ẢNH      */
+/* =================================================== */
+
+.ant-image-preview-root .ant-image-preview-switch-left,
+.ant-image-preview-root .ant-image-preview-switch-right {
+    pointer-events: auto !important;
+    background-color: rgba(0, 0, 0, 0.4) !important; /* Nền đen mờ giống ảnh */
+    color: white !important;
+    border-radius: 50% !important; /* Bo tròn tuyệt đối */
+    width: 48px !important;
+    height: 48px !important;
+    display: flex !important; /* Bắt buộc hiển thị */
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s ease !important;
+    margin: 0 16px !important;
+}
+
+.ant-image-preview-root .ant-image-preview-switch-left:hover,
+.ant-image-preview-root .ant-image-preview-switch-right:hover {
+    background-color: rgba(88, 88, 88, 0.7) !important; /* Đậm hơn khi hover */
+}
+
+.ant-image-preview-root .ant-image-preview-switch-left .anticon,
+.ant-image-preview-root .ant-image-preview-switch-right .anticon {
+    font-size: 22px !important;
+}
+
+/* =================================================== */
+/* ÉP HIỂN THỊ CẢ TRÊN MOBILE (Ant Design mặc định ẩn) */
+/* =================================================== */
+
+@media (max-width: 768px) {
+    .ant-image-preview-root .ant-image-preview-switch-left,
+    .ant-image-preview-root .ant-image-preview-switch-right {
+        display: flex !important; /* Đánh bại lệnh ẩn (display: none) của Ant Design */
+        width: 40px !important; /* Thu nhỏ lại một chút cho đỡ chiếm chỗ trên điện thoại */
+        height: 40px !important;
+        margin: 0 8px !important; /* Thu gọn lề 2 bên */
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .ant-image-preview-root .ant-image-preview-switch-left .anticon,
+    .ant-image-preview-root .ant-image-preview-switch-right .anticon {
+        font-size: 18px !important; /* Thu nhỏ icon mũi tên */
+    }
+}

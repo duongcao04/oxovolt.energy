@@ -1,0 +1,23 @@
+@layer base {
+    .close-button--default {
+        width: 44px !important;
+        height: 44px !important;
+    }
+
+    .modal__close-trigger svg {
+        width: 32px !important;
+        height: 32px !important;
+    }
+}
+
+@layer components {
+
+    .input,
+    .textarea {
+        @apply border-border-default rounded-md border shadow-none px-4 py-3;
+    }
+
+    .button {
+        @apply rounded-md;
+    }
+}

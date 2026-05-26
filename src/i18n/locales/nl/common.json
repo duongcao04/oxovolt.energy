@@ -1,0 +1,1034 @@
+{
+    "home": {
+        "hero": {
+            "subtitle": "VOOR PROFESSIONELE PRAKTIJKEN - PREMIUM WONINGEN",
+            "mainText": "Houd je activiteit",
+            "highlightText": "aangedreven door slimme energie.",
+            "tagline": "Slimme energie. Continue werking. Lagere kosten.",
+            "desc": "Elektriciteit gekocht op het juiste moment. Continuïteit automatisch behouden. Je activiteit blijft draaien — zelfs wanneer de buitenwereld instabiel wordt.",
+            "mobileDesc": "Elektriciteit gekocht op het juiste moment.\nContinuïteit automatisch behouden.\nJe activiteit blijft draaien — zelfs wanneer de buitenwereld instabiel wordt.",
+            "button": "Scroll om verder te gaan",
+            "features": {
+                "energy": {
+                    "title": "Energie",
+                    "desc": "Slimme energieorkestratie. Dynamische prijsoptimalisatie. Koop laag 's nachts en overdag. Gebruik slim met je team."
+                },
+                "data": {
+                    "title": "Data Vault",
+                    "desc": "Next-gen soevereine cloud. Veilig. Privé. Lokaal. Versleutelde gesplitste bestanden. Nul onderbrekingen."
+                },
+                "connectivity": {
+                    "title": "Connectiviteit",
+                    "desc": "Klassiek/4-5G/Radio/Satelliet. Altijd verbonden. Levenslang programma. Levenslange prestaties."
+                }
+            },
+            "modal": {
+                "energy": {
+                    "tag": "OXOVOLT Energy",
+                    "mainText": "Altijd aan.",
+                    "highlightText": "Altijd gevoed.",
+                    "desc": "Continue stroom voor kritische operaties.\nOnze hybride energiesystemen zijn ontworpen om 24/7 te werken en je volledige gebouw van stroom te voorzien — niet alleen als back-up, maar als je primaire, betrouwbare energiebron.",
+                    "subtitle": "Ontworpen voor continue werking.\nGebouwd om alles te voeden. Altijd.",
+                    "features": [
+                        {
+                            "title": "Continue werking, 24/7",
+                            "desc": "Ontworpen om volledige gebouwen continu van stroom te voorzien — niet alleen tijdens stroomuitval."
+                        },
+                        {
+                            "title": "Primair of back-up. Jouw keuze.",
+                            "desc": "Gebruik LOOPXCELL als primaire energiebron of als intelligente back-up infrastructuur."
+                        },
+                        {
+                            "title": "Voed het volledige gebouw",
+                            "desc": "Kantoren, infrastructuur, servers, verlichting, HVAC en kritische systemen."
+                        },
+                        {
+                            "title": "Dynamische energieoptimalisatie",
+                            "desc": "Laad automatisch op wanneer elektriciteitsprijzen lager zijn. Voed intelligent gedurende de dag."
+                        },
+                        {
+                            "title": "Geïntegreerd energie-ecosysteem",
+                            "desc": "Ingebouwde omvormers, zonne-laders, batterij-intelligentie, DATA VAULT en CONNECTIVITY modules."
+                        }
+                    ],
+                    "tabs": [
+                        "KANTOREN",
+                        "INDUSTRIE",
+                        "DATA",
+                        "CENTER",
+                        "GEZONDHEIDSZORG",
+                        "PRIVAAT",
+                        "KANTOREN",
+                        "INFRASTRUCTUUR"
+                    ]
+                },
+                "dataVault": {
+                    "tag": "DATAVAULT - Data",
+                    "mainText": "Jouw eigen data.",
+                    "highlightText": "Oxovault™, jouw eigen data.",
+                    "desc": "Meer dan opslag. Totale databeveiliging.\nOxovault™ houdt je bestanden versleuteld, gesplitst over meerdere nodes met redundantie — zodat je data privé, beschermd en altijd toegankelijk blijft.",
+                    "subtitle": "Jij bent eigenaar van je data.\nWij beschermen het zonder compromissen.",
+                    "features": [
+                        {
+                            "title": "Versleuteld, gesplitst, redundant",
+                            "desc": "Je bestanden worden versleuteld, in fragmenten gesplitst en verdeeld over meerdere nodes. Ingebouwde redundantie zorgt voor integriteit en beschikbaarheid."
+                        },
+                        {
+                            "title": "Souverein & volledig privé",
+                            "desc": "Je data blijft van jou. Opgeslagen in soevereine infrastructuur die jij controleert — volledig privé en compliant."
+                        },
+                        {
+                            "title": "End-to-end encryptie",
+                            "desc": "Je data wordt op elke stap versleuteld — in transit en in rust. Zero knowledge. Zero compromissen."
+                        },
+                        {
+                            "title": "Altijd beschikbaar",
+                            "desc": "High-availability architectuur met automatische failover zorgt ervoor dat je data altijd toegankelijk is wanneer je het nodig hebt."
+                        },
+                        {
+                            "title": "Onbeperkt. Elk type. Overal.",
+                            "desc": "Sla al je data op — elk formaat, elke grootte. Schaalbaar zonder limieten. Klaar voor vandaag en de toekomst."
+                        }
+                    ],
+                    "tabs": [
+                        "KANTOREN",
+                        "INDUSTRIE",
+                        "DATA VAULT",
+                        "GEZONDHEIDSZORG",
+                        "PRIVAAT",
+                        "KANTOREN",
+                        "INFRASTRUCTUUR"
+                    ]
+                },
+                "connectivity": {
+                    "tag": "OXOBOLT - Connectiviteit",
+                    "mainText": "Altijd verbonden.",
+                    "highlightText": "Altijd in controle.",
+                    "desc": "Betrouwbare connectiviteit is essentieel.\nOnze systemen houden je verbonden, veilig en in controle — overal, altijd.\nGebouwd voor ononderbroken prestaties.\nOntworpen voor een verbonden wereld.",
+                    "subtitle": "Wereldwijd bereik. Lokale betrouwbaarheid.\nTotale controle over je connectiviteit.",
+                    "features": [
+                        {
+                            "title": "Altijd verbonden",
+                            "desc": "Blijf online op elk moment met stabiele, hoogwaardige connectiviteit ontworpen voor ononderbroken operaties."
+                        },
+                        {
+                            "title": "Multi-netwerk & failover",
+                            "desc": "Automatische overschakeling tussen meerdere netwerken en providers zorgt voor continue toegang — zelfs als één verbinding uitvalt."
+                        },
+                        {
+                            "title": "Veilig by design",
+                            "desc": "End-to-end encryptie, private routing en geavanceerde dreigingsbescherming houden je data en communicatie veilig."
+                        },
+                        {
+                            "title": "Wereldwijde dekking",
+                            "desc": "Verbind over regio's en continenten met intelligente netwerkrouting en geoptimaliseerde prestaties."
+                        },
+                        {
+                            "title": "Gecentraliseerde controle",
+                            "desc": "Monitor, beheer en configureer je connectiviteit vanuit één interface — met volledige zichtbaarheid en controle."
+                        }
+                    ],
+                    "tabs": [
+                        "KANTOREN",
+                        "INDUSTRIE",
+                        "DATA VAULT",
+                        "GEZONDHEIDSZORG",
+                        "PRIVAAT",
+                        "KANTOREN",
+                        "INFRASTRUCTUUR"
+                    ]
+                }
+            }
+        },
+        "stats": [
+            {
+                "title": "BRANDVEILIG",
+                "desc": "Nul verspreiding"
+            },
+            {
+                "title": "MILIEUVRIENDELIJK",
+                "desc": "Biologisch afbreekbare diëlektrische olie"
+            },
+            {
+                "title": "GERUISLOOS",
+                "desc": "Geen bewegende delen"
+            },
+            {
+                "title": "EXTREME OMGEVINGEN",
+                "desc": "Stofvrij, schokbestendig, IP68 (afhankelijk van model)"
+            },
+            {
+                "title": "100% BRUIKBARE ENERGIE",
+                "desc": "Alle vermelde kWh zijn daadwerkelijk beschikbaar"
+            },
+            {
+                "title": "GARANTIE",
+                "desc": "Levenslang met Amooflex Programma"
+            }
+        ],
+        "professional": {
+            "tag": "Professionele Continuïteit",
+            "mainText": "Gebouwd voor ononderbroken",
+            "highlightText": "professionele activiteit.",
+            "desc": "OXOVOLT voorziet je volledige werkruimte van stroom. Kantoren, apparatuur, systemen en teams — allemaal beschermd, altijd.",
+            "mobileDesc": "OXOVOLT voorziet je volledige werkruimte van stroom. Kantoren, apparatuur, systemen en teams.",
+            "cta": "Ontdek het Systeem",
+            "features": [
+                {
+                    "title": "Voorzie je Activiteit van Stroom",
+                    "desc": "Voorziet je volledige werkruimte van stroom.\nZonder onderbreking."
+                },
+                {
+                    "title": "Autonome Energiecontinuïteit",
+                    "desc": "Slaat energie op wanneer prijzen laag zijn.\nVoorziet je activiteit van stroom wanneer prijzen stijgen."
+                },
+                {
+                    "title": "Veilig & Veerkrachtig",
+                    "desc": "Blijft werken tijdens stroomuitval\nen instabiele omstandigheden."
+                },
+                {
+                    "title": "Next Gen Connectiviteit",
+                    "desc": "Klassiek/4–5G/Radio & satelliet fallback\nvoor continue communicatie."
+                },
+                {
+                    "title": "Private Soevereine Cloud",
+                    "desc": "Versleutelde local-first architectuur\nmet veilige toegang."
+                },
+                {
+                    "title": "Multi Nodes Gesplitste Bestanden",
+                    "desc": "Niemand kan erbij.\nFysiek onmogelijk."
+                },
+                {
+                    "title": "Gebouwd voor Dagelijkse Betrouwbaarheid",
+                    "desc": "Ontworpen voor langdurige gemoedsrust\nen continu gebruik."
+                }
+            ]
+        },
+        "architectures": {
+            "tag": "Twee Energie & Architecturen",
+            "mainText": "Twee manieren om",
+            "highlightText": "je energie-autonomie op te bouwen.",
+            "desc": "OXOVOLT biedt twee intelligente architectuurpaden.\nZelfde missie: continue stroom, totale controle.",
+            "mobileDesc": "OXOVOLT voorziet je volledige werkruimte van stroom. Kantoren, apparatuur, systemen en teams.",
+            "cta": "Ontdek het Systeem",
+            "footer": {
+                "textLeft": {
+                    "text1": "Zowel KAMELEO als LOOPXCELL zijn beschikbaar met geïntegreerde ",
+                    "text2": "DATA CLOUD ",
+                    "text3": "module \nen ",
+                    "text4": "CONNECTIVITY ",
+                    "text5": "modules."
+                },
+                "textRight": "Eén ecosysteem ontworpen\nvoor ononderbroken energie."
+            },
+            "features": [
+                {
+                    "title": "Voorzie je Activiteit van Stroom",
+                    "desc": "Voorziet je volledige werkruimte van stroom.\nZonder onderbreking."
+                },
+                {
+                    "title": "Autonome Energiecontinuïteit",
+                    "desc": "Slaat energie op wanneer prijzen laag zijn.\nVoorziet je activiteit van stroom wanneer prijzen stijgen."
+                },
+                {
+                    "title": "Veilig & Veerkrachtig",
+                    "desc": "Blijft werken tijdens stroomuitval\nen instabiele omstandigheden."
+                },
+                {
+                    "title": "Next Gen Connectiviteit",
+                    "desc": "4–5G & satelliet fallback\nvoor continue communicatie."
+                },
+                {
+                    "title": "Private Soevereine Cloud",
+                    "desc": "Versleutelde local-first architectuur\nmet veilige toegang."
+                },
+                {
+                    "title": "Multi Nodes Gesplitste Bestanden",
+                    "desc": "Niemand kan erbij.\nFysiek onmogelijk."
+                },
+                {
+                    "title": "Gebouwd voor Dagelijkse Betrouwbaarheid",
+                    "desc": "Ontworpen voor langdurige gemoedsrust\nen continu gebruik."
+                }
+            ]
+        },
+        "technology": {
+            "tag": "OXOVOLT TECHNOLOGIE",
+            "title": "De doorbraak\nzit vanbinnen.",
+            "desc_start": "Oxovolt batterijen zijn ondergedompeld in ",
+            "desc_end": ", een next-generation diëlektrische olie die veiligheid, prestaties en duurzaamheid herdefinieert.",
+            "features1": [
+                {
+                    "title": "BOLTARIUM™ IMMERSIE",
+                    "desc": "Alle kritische componenten zijn ondergedompeld in een biologisch afbreekbare diëlektrische olie.",
+                    "slogan": "Niet giftig. Niet brandbaar. Brandveilig."
+                },
+                {
+                    "title": "VEREENVOUDIGDE ARCHITECTUUR",
+                    "desc": "Minder elektronica. Minder componenten. Geen ventilatoren, geen bewegende delen.",
+                    "slogan": "Meer betrouwbaarheid. Minder storingen."
+                },
+                {
+                    "title": "EXTREME THERMISCHE CONTROLE",
+                    "desc": "Optimale temperatuurstabiliteit in alle omstandigheden. Geen oververhitting. Geen degradatie.",
+                    "slogan": "Extreme omgevingen. Nul stress."
+                }
+            ],
+            "features2": [
+                {
+                    "title": "BRANDVEILIG",
+                    "desc": "Geen verspreiding. Geen giftige dampen."
+                },
+                {
+                    "title": "MILIEUVRIENDELIJK",
+                    "desc": "Boltarium™ is intrinsiek biologisch afbreekbaar."
+                },
+                {
+                    "title": "GERUISLOOS",
+                    "desc": "Geen ventilatoren. Geen trillingen."
+                },
+                {
+                    "title": "STOFDICHT & WATERDICHT",
+                    "desc": "Afgesloten ontwerp. IP68 afhankelijk van model."
+                },
+                {
+                    "title": "EXTREME OMGEVINGEN",
+                    "desc": "Hitte, kou, stormen, aardbevingen... Het werkt gewoon."
+                },
+                {
+                    "title": "HOGE PRESTATIES",
+                    "desc": "Maximale efficiëntie. 64V nominaal systeem. Meer vermogen. Hoger rendement."
+                }
+            ]
+        },
+        "solutions": {
+            "subtitle": "Twee Infrastructuurfilosofieën",
+            "mainText": "Kies de oplossing",
+            "highlightText": "die bij je omgeving past.",
+            "desc": "Twee complementaire benaderingen. Eén missie:\njouw continuïteit garanderen. Op jouw manier.",
+            "disclaimer_start": "Aangedreven door ",
+            "disclaimer_link": "Boltarium™",
+            "disclaimer_middle": " immersietechnologie",
+            "disclaimer_end": " voor ongeëvenaarde veiligheid, duurzaamheid en prestaties.",
+            "kameleo": {
+                "tag": "Kameleo Serie",
+                "title": "Professionele\ninfrastructuuruitbreiding.",
+                "desc": "Modulaire batterij-eenheden die naadloos integreren\nmet je bestaande energiesystemen.\nVoeg capaciteit toe. Houd controle.\nGroei in jouw tempo.",
+                "features": [
+                    "Retrofit & hybride compatibel",
+                    "Modulair & schaalbaar",
+                    "Snelle integratie",
+                    "Ideaal voor capaciteitsuitbreiding"
+                ],
+                "button": "Ontdek Kameleo"
+            },
+            "loopxcell": {
+                "tag": "Loopxcell Serie",
+                "title": "Geïntegreerde\ncontinuïteitsomgeving.",
+                "desc": "Alles-in-één energiesysteem dat opslag,\nomvormers en intelligentie combineert in één ondergedompelde architectuur.\nEén systeem. Maximale autonomie.",
+                "features": [
+                    "Alles-in-één integratie",
+                    "Maximale veiligheid & prestaties",
+                    "Geoptimaliseerde thermische beheersing",
+                    "Gebouwd voor langdurige onafhankelijkheid"
+                ],
+                "button": "Ontdek Loopxcell"
+            }
+        },
+        "kameleo_section": {
+            "tag": "Kameleo Serie",
+            "mainText": "Energiecontinuïteit",
+            "highlightText": "zonder alles opnieuw te hoeven bouwen.",
+            "mobileDesc": "KAMELEO is ontworpen om naadloos te integreren in bestaande kantoren, premium woningen en professionele energie-infrastructuren.\n\nPuur intelligente opslag — modulair, geruisloos en retrofit-ready.",
+            "desc": "KAMELEO is ontworpen om naadloos te integreren in bestaande kantoren, premium woningen en professionele energie-infrastructuren.\n\nPuur intelligente opslag — modulair, geruisloos en retrofit-ready.",
+            "features1": [
+                {
+                    "title": "Retrofit by Design",
+                    "desc": "Ontworpen om naadloos te integreren met bestaande elektrische infrastructuren."
+                },
+                {
+                    "title": "Gruisloze Werking",
+                    "desc": "Geen geluid. Geen trillingen. Geen verstoring."
+                },
+                {
+                    "title": "Pure Opslagarchitectuur",
+                    "desc": "Geen omvormer. Geen zonne-lader. Pure batterij-opslag."
+                },
+                {
+                    "title": "Gebouwd om te Blijven",
+                    "desc": "Premium componenten. Ontworpen voor de lange termijn."
+                }
+            ],
+            "button": "Scroll naar LoopXcell Serie",
+            "personal": "Persoonlijk",
+            "business": "Zakelijk",
+            "features2": [
+                {
+                    "title": "Energiecontinuïteit",
+                    "desc": "Houd je activiteit draaiende, zelfs bij stroomstoringen."
+                },
+                {
+                    "title": "Datacontinuïteit",
+                    "desc": "Je data blijft beschermd, toegankelijk en veilig."
+                },
+                {
+                    "title": "Connectiviteitscontinuïteit",
+                    "desc": "Blijf verbonden. Altijd. Geen onderbreking."
+                }
+            ],
+            "view_detail": "Bekijk Details"
+        },
+        "loopxcell_section": {
+            "tag": "LoopXcell Serie",
+            "mainText": "Maximaal vermogen.",
+            "highlightText": "Minimale omvang.\nTotale betrouwbaarheid.",
+            "mobileDesc": "LOOPXCELL is de high-density batterijmodule ontworpen om maximale energie te leveren in de kleinste footprint voor elke omgeving.\nCompact, schaalbaar en gebouwd voor extreme prestaties.",
+            "desc": "LOOPXCELL is de high-density batterijmodule ontworpen om maximale energie te leveren in de kleinste footprint voor elke omgeving.\nCompact, schaalbaar en gebouwd voor extreme prestaties.",
+            "features1": [
+                {
+                    "title": "Maximale Energiedichtheid",
+                    "desc": "Meer vermogen in minder ruimte.\nOntworpen voor hoge prestaties en efficiëntie."
+                },
+                {
+                    "title": "Extreme Betrouwbaarheid",
+                    "desc": "Industriële componenten.\nGetest voor de meest veeleisende omstandigheden."
+                },
+                {
+                    "title": "Modulair & Schaalbaar",
+                    "desc": "Flexibele integratie.\nVan kleine installaties tot grootschalige systemen."
+                },
+                {
+                    "title": "Ingebouwde Omvormers & Zonne-laders",
+                    "desc": "Geïntegreerde power electronics.\nNaadloze energieconversie en zonne-oplaad — alles in één."
+                }
+            ],
+            "button": "Scroll naar Kameleo Serie",
+            "personal": "Persoonlijk",
+            "business": "Zakelijk",
+            "features2": [
+                {
+                    "title": "Energie",
+                    "desc": "Dynamische energieoptimalisatie. Op het juiste moment gevoed."
+                },
+                {
+                    "title": "Data Vault",
+                    "desc": "OXOVAULT™ soevereine cloud. Versleutelde split-node opslag."
+                },
+                {
+                    "title": "Connectiviteit",
+                    "desc": "Klassiek / 4–5G / Radio / Satelliet. Altijd verbonden. Altijd aan."
+                }
+            ],
+            "view_detail": "Bekijk Details"
+        },
+        "modals": {
+            "header": {
+                "energy": "Energie",
+                "data": "Data",
+                "connectivity": "Connectiviteit"
+            },
+            "energy": {
+                "tag": "ENERGIE CONTINUÏTEIT",
+                "title_main": "Stroom die nooit stopt.",
+                "title_highlight": "Altijd aan.",
+                "desc": "OXOVOLT zorgt voor ononderbroken stroom zodat je operaties blijven draaien — zonder onderbreking.",
+                "features_left": [
+                    {
+                        "title": "ONONDERBROKEN STROOM",
+                        "desc": "Houd je kritische systemen draaiende, zelfs bij stroomuitval of netstoringen."
+                    },
+                    {
+                        "title": "AUTOMATISCH & INSTANT",
+                        "desc": "Naadloze overschakeling naar batterijstroom in milliseconden. Geen handmatige actie."
+                    },
+                    {
+                        "title": "BETROUWBAAR WANNEER HET ERTOE DOET",
+                        "desc": "Ontworpen voor stabiliteit en prestaties, wanneer je het nodig hebt."
+                    },
+                    {
+                        "title": "GEBOUWD VOOR ENERGIE-CONTINUÏTEIT",
+                        "desc": "Robuuste, veilige en duurzame technologie voor totale gemoedsrust."
+                    }
+                ],
+                "features_right_title_main": "Geïntegreerde Intelligentie.",
+                "features_right_title_highlight": "Alles wat je nodig hebt. Ingebouwd.",
+                "features_right": [
+                    {
+                        "title": "GEAVANCEERD BATTERIJSYSTEEM",
+                        "desc": "Hoogwaardige cellen, actieve balancering en thermische controle voor maximale betrouwbaarheid en levensduur."
+                    },
+                    {
+                        "title": "ULTRA HOGE EFFICIËNTIE",
+                        "desc": "Industrieleidende energieconversie voor minimale verliezen en maximale output."
+                    },
+                    {
+                        "title": "SLIMME 3-FASE BALANCERING",
+                        "desc": "Balanceert fasen real-time zonder autotransformator. Efficiënter. Betrouwbaarder."
+                    },
+                    {
+                        "title": "GEBOUWD VOOR BETROUWBAARHEID",
+                        "desc": "Ontworpen voor langdurige prestaties in reële omstandigheden."
+                    },
+                    {
+                        "title": "VLOEISTOFKOELING TECHNOLOGIE",
+                        "desc": "Optimale thermische beheersing voor consistente prestaties en langere levensduur."
+                    },
+                    {
+                        "title": "COMPACT & DUURZAAM",
+                        "desc": "Robuust ontwerp. Gebouwd om te blijven. Voor elke omgeving."
+                    }
+                ],
+                "card_title": [
+                    "Energie.",
+                    "Veilig by design.",
+                    "Continuïteit.",
+                    "Altijd aan."
+                ],
+                "card_desc": "Je energie blijft beschikbaar — overal, altijd.",
+                "cloud": {
+                    "title1": "ENERGIE CONTINUÏTEIT CLOUD",
+                    "desc1": "Gedecentraliseerd netwerk van energienodes. Je stroom wordt beheerd en verdeeld over het netwerk voor maximale beschikbaarheid en veerkracht.",
+                    "list1": [
+                        "Energie-integriteit op elk niveau",
+                        "Alleen jij hebt de volledige controle"
+                    ],
+                    "title2": "ONVERWOESTBARE ENERGIE-CONTINUÏTEIT",
+                    "desc2": "Intelligente energiemanagement zorgt voor zero downtime. Wanneer één bron uitvalt, neemt een andere het over.",
+                    "list2": [
+                        "Automatische failover",
+                        "Altijd gevoed",
+                        "Zelfs wanneer al het andere faalt"
+                    ]
+                },
+                "bottom_grid": [
+                    {
+                        "title": "GEDESCENTRALISEERD",
+                        "desc": "Geen single point of failure"
+                    },
+                    {
+                        "title": "HYPERVEILIG",
+                        "desc": "Beschermde systemen en gebruikers"
+                    },
+                    {
+                        "title": "VEERKRACHTIG",
+                        "desc": "Gebouwd voor elke situatie"
+                    },
+                    {
+                        "title": "PRIVÉ & SOEVEREIN",
+                        "desc": "Jouw energie, jouw controle"
+                    }
+                ],
+                "footer_left_title": "ENERGIE-CONTINUÏTEIT\nWAAROP JE KUNT VERTROUWEN.",
+                "footer_left_desc": "Betrouwbare stroom. Intelligent ontwerp.\nTotale gemoedsrust.",
+                "footer_stats": [
+                    {
+                        "val": ">97%",
+                        "label": "SYSTEEM BESCHIKBAARHEID"
+                    },
+                    {
+                        "val": "0",
+                        "label": "STROOM DOWNTIME"
+                    },
+                    {
+                        "val": "100%",
+                        "label": "ENERGIE BESCHERMD"
+                    }
+                ],
+                "footer_belgium": "GEMAAKT IN BELGIË",
+                "footer_btn1": "ONTDEK ENERGIE-CONTINUÏTEIT",
+                "footer_btn2": "TECHNISCHE SPECIFICATIES"
+            },
+            "data": {
+                "tag": "DATA CONTINUÏTEIT",
+                "title_main": "Jouw data.",
+                "title_highlight": "Altijd beschermd.",
+                "desc": "OXOVOLT zorgt ervoor dat je data beschermd, toegankelijk en veilig blijft — wat er ook gebeurt.",
+                "features_left": [
+                    {
+                        "title": "DATA ALTIJD BESCHIKBAAR",
+                        "desc": "Je data blijft toegankelijk, zelfs bij stroomuitval of verstoringen."
+                    },
+                    {
+                        "title": "VEILIG BY DESIGN",
+                        "desc": "Geavanceerde beveiliging en ingebouwde veerkracht beschermen je data op elk niveau."
+                    },
+                    {
+                        "title": "BETROUWBAAR WANNEER HET ERTOE DOET",
+                        "desc": "Ontworpen voor stabiliteit en prestaties, wanneer je het nodig hebt."
+                    },
+                    {
+                        "title": "GEBOUWD VOOR DATA-CONTINUÏTEIT",
+                        "desc": "Robuuste, veilige en duurzame technologie voor totale gemoedsrust."
+                    }
+                ],
+                "features_right_title_main": "Geïntegreerde Intelligentie.",
+                "features_right_title_highlight": "Alles wat je nodig hebt. Ingebouwd.",
+                "features_right": [
+                    {
+                        "title": "DATA-INTEGRITEIT",
+                        "desc": "Continue bescherming tegen corruptie, verlies en ongeautoriseerde toegang."
+                    },
+                    {
+                        "title": "GEBOUWD VOOR BETROUWBAARHEID",
+                        "desc": "Ontworpen voor langdurige prestaties in reële omstandigheden."
+                    },
+                    {
+                        "title": "SLIMME DATA BEHEER",
+                        "desc": "Zorgt voor consistentie en beschikbaarheid over alle systemen en applicaties."
+                    },
+                    {
+                        "title": "COMPACT & DUURZAAM",
+                        "desc": "Robuust ontwerp. Gebouwd om te blijven. Voor elke omgeving."
+                    },
+                    {
+                        "title": "GEAVANCEERDE DATABEVEILIGING",
+                        "desc": "Encryptie, redundantie en monitoring voor maximale dataveiligheid."
+                    },
+                    {
+                        "title": "NUL DATA VERLIES",
+                        "desc": "Veerkrachtige architectuur die je data altijd veilig houdt."
+                    }
+                ],
+                "card_title": [
+                    "Data.",
+                    "Veilig by design.",
+                    "Continuïteit.",
+                    "Altijd aan."
+                ],
+                "card_desc": "Je data blijft beschermd, toegankelijk en veilig — overal, altijd.",
+                "cloud": {
+                    "title1": "DATA CONTINUÏTEIT CLOUD",
+                    "desc1": "Gedecentraliseerd netwerk van veilige datanodes. Je data wordt gerepliceerd en verdeeld voor maximale beschikbaarheid, privacy en veerkracht.",
+                    "list1": [
+                        "Data-integriteit op elk niveau",
+                        "Alleen jij hebt de volledige controle"
+                    ],
+                    "title2": "ONVERWOESTBARE DATA-CONTINUÏTEIT",
+                    "desc2": "Geïntegreerde 4G, satelliet, glasvezel en VDSL modules zorgen voor zero downtime. Wanneer één verbinding uitvalt, neemt een andere het over.",
+                    "list2": [
+                        "Automatische failover",
+                        "Altijd verbonden",
+                        "Zelfs wanneer al het andere faalt"
+                    ]
+                },
+                "bottom_grid": [
+                    {
+                        "title": "GEDESCENTRALISEERD",
+                        "desc": "Geen single point of failure"
+                    },
+                    {
+                        "title": "VERSLEUTELD",
+                        "desc": "End-to-end databeveiliging"
+                    },
+                    {
+                        "title": "VEERKRACHTIG",
+                        "desc": "Gebouwd voor elke situatie"
+                    },
+                    {
+                        "title": "PRIVÉ & SOEVEREIN",
+                        "desc": "Jouw data, jouw controle"
+                    }
+                ],
+                "footer_left_title": "DATA-CONTINUÏTEIT\nWAAROP JE KUNT VERTROUWEN.",
+                "footer_left_desc": "Veilig. Toegankelijk. Altijd beschikbaar.\nTotale gemoedsrust.",
+                "footer_stats": [
+                    {
+                        "val": "100%",
+                        "label": "DATA BESCHIKBAARHEID"
+                    },
+                    {
+                        "val": "0",
+                        "label": "DATA VERLIES"
+                    },
+                    {
+                        "val": "100%",
+                        "label": "DATA BESCHERMD"
+                    }
+                ],
+                "footer_belgium": "GEMAAKT IN BELGIË",
+                "footer_btn1": "ONTDEK DATA-CONTINUÏTEIT",
+                "footer_btn2": "TECHNISCHE SPECIFICATIES"
+            },
+            "connectivity": {
+                "tag": "CONNECTIVITEIT CONTINUÏTEIT",
+                "title_main": "Blijf verbonden.",
+                "title_highlight": "Altijd.",
+                "desc": "OXOVOLT zorgt voor ononderbroken connectiviteit zodat je operaties verbonden blijven — zonder onderbreking.",
+                "features_left": [
+                    {
+                        "title": "MULTI-NETWERK INTEGRATIE",
+                        "desc": "Naadloze connectiviteit met glasvezel, 4G-5G, satelliet en Entropia Data Radio (waar beschikbaar)."
+                    },
+                    {
+                        "title": "AUTOMATISCHE FAILOVER",
+                        "desc": "Instant en intelligente overschakeling tussen netwerken in milliseconden. Geen handmatige actie."
+                    },
+                    {
+                        "title": "BETROUWBAAR OVERAL",
+                        "desc": "Ontworpen voor de meest veeleisende omgevingen en afgelegen locaties."
+                    },
+                    {
+                        "title": "GEBOUWD VOOR CONNECTIVITEIT-CONTINUÏTEIT",
+                        "desc": "Robuuste, veilige en toekomstbestendige technologie voor totale gemoedsrust."
+                    }
+                ],
+                "features_right_title_main": "Geïntegreerde Intelligentie.",
+                "features_right_title_highlight": "Alles wat je nodig hebt. Ingebouwd.",
+                "features_right": [
+                    {
+                        "title": "MULTI-NETWERK MODULES",
+                        "desc": "Geïntegreerde glasvezel, 4G-5G, satelliet en Entropia Data Radio modules voor maximale dekking en betrouwbaarheid."
+                    },
+                    {
+                        "title": "WIJDE DEKKING",
+                        "desc": "Wereldwijd bereik met satelliet, mobiele en regionale radionetwerken (Entropia Data Radio waar beschikbaar)."
+                    },
+                    {
+                        "title": "INTELLIGENTE NETWERKBEHEER",
+                        "desc": "Monitort alle verbindingen real-time en kiest de beste beschikbare route."
+                    },
+                    {
+                        "title": "GEBOUWD VOOR BETROUWBAARHEID",
+                        "desc": "Ontworpen voor 24/7 connectiviteit in de meest uitdagende omstandigheden."
+                    },
+                    {
+                        "title": "NAADLOZE CONNECTIVITEIT",
+                        "desc": "Bliksemsnelle failover zorgt voor continue connectiviteit zonder sessieverlies."
+                    },
+                    {
+                        "title": "COMPACT & DUURZAAM",
+                        "desc": "Robuust ontwerp. Gebouwd om te blijven. Voor elke omgeving."
+                    }
+                ],
+                "card_title": [
+                    "Connectiviteit.",
+                    "Veilig by design.",
+                    "Continuïteit.",
+                    "Altijd aan."
+                ],
+                "card_desc": "Je verbinding blijft actief — overal, altijd.",
+                "cloud": {
+                    "title1": "CONNECTIVITEIT CLOUD",
+                    "desc1": "Gedecentraliseerd netwerk van connectiviteitsnodes. Je data stroomt via het beste beschikbare netwerk voor maximale prestaties, redundantie en veerkracht.",
+                    "list1": [
+                        "Real-time netwerkstatus monitoring",
+                        "Jij behoudt de controle"
+                    ],
+                    "title2": "ONVERWOESTBARE CONNECTIVITEIT",
+                    "desc2": "Intelligente netwerkorkestratie zorgt voor zero downtime. Wanneer één netwerk uitvalt, neemt een andere het over.",
+                    "list2": [
+                        "Automatische failover",
+                        "Altijd verbonden",
+                        "Zelfs wanneer al het andere faalt"
+                    ]
+                },
+                "bottom_grid": [
+                    {
+                        "title": "NUL ONDERBREKINGEN",
+                        "desc": "Geen sessieverlies, nooit"
+                    },
+                    {
+                        "title": "INTELLIGENTE ROUTING",
+                        "desc": "Altijd de beste route"
+                    },
+                    {
+                        "title": "HOGE VEERKRACHT",
+                        "desc": "Meerdere netwerken, één verbinding"
+                    },
+                    {
+                        "title": "VEILIG BY DESIGN",
+                        "desc": "Versleuteld en beschermd"
+                    },
+                    {
+                        "title": "PRIVÉ & SOEVEREIN",
+                        "desc": "Jouw data, jouw controle"
+                    }
+                ],
+                "footer_left_title": "CONNECTIVITEIT-CONTINUÏTEIT,\nWAAROP JE KUNT VERTROUWEN.",
+                "footer_left_desc": "Betrouwbaar. Intelligent. Ononderbroken.\nTotale gemoedsrust.",
+                "footer_stats": [
+                    {
+                        "label": "MULTI-NETWERK",
+                        "val": "4",
+                        "desc": "KLASSIEK • GLASVEZEL • 4G-5G • SATELLIET\nENTROPIA RADIO"
+                    },
+                    {
+                        "label": "AUTO FAILOVER",
+                        "val": "<20ms",
+                        "desc": "NAADELOZE OVERSCHAKELING"
+                    },
+                    {
+                        "label": "UPTIME",
+                        "val": ">99,99%",
+                        "desc": "VERBONDEN"
+                    },
+                    {
+                        "label": "WERELDWIJDE DEKKING",
+                        "val": "OVERAL",
+                        "desc": "ALTIJD VERBONDEN"
+                    },
+                    {
+                        "label": "GEBOUWD VOOR OVERAL",
+                        "val": "",
+                        "desc": "AFGELEGEN • MOBIEL • VAST"
+                    }
+                ],
+                "footer_btn1": "ONTDEK CONNECTIVITEIT-CONTINUÏTEIT",
+                "footer_btn2": "TECHNISCHE SPECIFICATIES"
+            }
+        },
+        "continuity": {
+            "subtitle": "Professionele Continuïteit",
+            "title": "Gebouwd voor ononderbroken\nprofessionele activiteit.",
+            "desc": "OXOVOLT beschermt wat jouw praktijk, kantoor of bedrijf draaiende houdt.\nStille, autonome infrastructuur die continuïteit, veiligheid en gemoedsrust garandeert — elke dag.",
+            "button": "Mijn Omgeving",
+            "features1": [
+                {
+                    "title": "Betrouwbare Continuïteit",
+                    "desc": "Je activiteit gaat door.\nGeen onderbreking, geen stress,\nook als externe systemen uitvallen."
+                },
+                {
+                    "title": "Totale Rust",
+                    "desc": "Gruisloos. Onzichtbaar. Altijd klaar.\nFocus op je werk,\nwij zorgen voor de rest."
+                },
+                {
+                    "title": "Dedicated Support",
+                    "desc": "Een responsief team,\nduidelijke antwoorden,\nmenselijke service, altijd."
+                }
+            ],
+            "features2": [
+                {
+                    "title": "Bescherm je activiteit",
+                    "desc": "Bescherm je operaties, je data en het vertrouwen van je klanten."
+                },
+                {
+                    "title": "Duurzaam & Verantwoord",
+                    "desc": "Milieuvriendelijke technologie, ontworpen voor de lange termijn."
+                },
+                {
+                    "title": "Gruisloos by Design",
+                    "desc": "Geen geluid, geen trillingen, geen verstoring van je omgeving."
+                },
+                {
+                    "title": "Veilig & Veerkrachtig",
+                    "desc": "Ontworpen om in alle omstandigheden te presteren. Regen, storm, stroomuitval — het werkt gewoon."
+                },
+                {
+                    "title": "Gebouwd om te Blijven",
+                    "desc": "Premium componenten, gebouwd voor duurzaamheid en gemoedsrust."
+                }
+            ]
+        },
+        "last": {
+            "title_main": "Continuïteit waar je",
+            "title_highlight": "nooit over na hoeft te denken.",
+            "about": "Over"
+        }
+    },
+    "kameleo": {
+        "energy": {
+            "tag": "ENERGIE CONTINUÏTEIT",
+            "title1": "Blijf gevoed.",
+            "title2": "Altijd.",
+            "desc": "OXOVOLT Kameleo zorgt voor ononderbroken stroom voor wat het belangrijkst is.\n\nWanneer het net uitvalt, blijft jouw energie stromen.",
+            "continuity": "Energiecontinuïteit.",
+            "power_never_stops": "Stroom die nooit stopt.",
+            "features": {
+                "uninterrupted": {
+                    "title": "ONONDERBROKEN STROOM",
+                    "desc": "Houd je essentiële systemen draaiende tijdens stroomuitval."
+                },
+                "automatic": {
+                    "title": "AUTOMATISCH & INSTANT",
+                    "desc": "Naadloze overschakeling naar batterijstroom in milliseconden. Geen handmatige actie."
+                },
+                "reliable": {
+                    "title": "BETROUWBAAR WANNEER HET ERTOE DOET",
+                    "desc": "Ontworpen voor stabiliteit en prestaties, wanneer je het nodig hebt."
+                },
+                "built_for": {
+                    "title": "GEBOUWD VOOR CONTINUÏTEIT",
+                    "desc": "Robuuste, veilige en duurzame technologie voor totale gemoedsrust."
+                }
+            },
+            "protection": {
+                "title": "Stroombeveiliging\nvoor jouw wereld.",
+                "subtitle": "Elke seconde. Elke keer.",
+                "home": {
+                    "title": "JOUW WONING",
+                    "desc": "Comfort, veiligheid en gemoedsrust."
+                },
+                "business": {
+                    "title": "JOUW BEDRIJF",
+                    "desc": "Productiviteit, systemen en operaties."
+                },
+                "infrastructure": {
+                    "title": "JOUW INFRASTRUCTUUR",
+                    "desc": "Kritische systemen, altijd beschermd."
+                }
+            },
+            "footer": {
+                "tag": "ENERGIE-CONTINUÏTEIT,\nWAAROP JE KUNT VERTROUWEN.",
+                "desc": "Betrouwbare stroom. Intelligent ontwerp.\nTotale gemoedsrust.",
+                "always_on": {
+                    "title": "ALTIJD AAN",
+                    "desc": "Ononderbroken\nstroom"
+                },
+                "instant": {
+                    "title": "INSTANT BESCHERMING",
+                    "desc": "Automatische overschakeling\nin milliseconden"
+                },
+                "dependable": {
+                    "title": "BETROUWBAAR",
+                    "desc": "Stabiele en veilige\nprestaties"
+                },
+                "peace_of_mind": {
+                    "title": "GEMOEDS RUST",
+                    "desc": "Focus op wat belangrijk is.\nWij voeden de rest."
+                }
+            }
+        },
+        "data": {
+            "tag": "DATA CONTINUÏTEIT",
+            "title1": "Jouw data.",
+            "title2": "Altijd beschermd.",
+            "desc": "Je data blijft beschermd, toegankelijk en veilig.\n\nWanneer het er echt toe doet, blijft je data beschikbaar.",
+            "continuity": "Datacontinuïteit.",
+            "remains_protected": "Je data blijft beschermd, toegankelijk en veilig.",
+            "features": {
+                "accessible": {
+                    "title": "ALTIJD TOEGANKELIJK",
+                    "desc": "Houd je data beschikbaar en toegankelijk, zelfs bij stroomuitval."
+                },
+                "secure": {
+                    "title": "VEILIG BY DESIGN",
+                    "desc": "Je data is beschermd met geavanceerde beveiliging en ingebouwde veerkracht."
+                },
+                "reliable": {
+                    "title": "BETROUWBAAR WANNEER HET ERTOE DOET",
+                    "desc": "Ontworpen voor stabiliteit en prestaties, wanneer je het nodig hebt."
+                },
+                "built_for": {
+                    "title": "GEBOUWD VOOR DATA-CONTINUÏTEIT",
+                    "desc": "Robuuste, veilige en duurzame technologie voor volledige gemoedsrust."
+                }
+            },
+            "protection": {
+                "title": "Databeveiliging\nvoor jouw wereld.",
+                "subtitle": "Elke seconde. Elke keer.",
+                "home": {
+                    "title": "JOUW WONING",
+                    "desc": "Gemoedsrust voor je persoonlijke data en apparaten."
+                },
+                "business": {
+                    "title": "JOUW BEDRIJF",
+                    "desc": "Houd kritische data en operaties draaiende."
+                },
+                "infrastructure": {
+                    "title": "JOUW INFRASTRUCTUUR",
+                    "desc": "Zorg dat systemen en data beschermd blijven."
+                }
+            },
+            "footer": {
+                "tag": "DATA-CONTINUÏTEIT,\nWAAROP JE KUNT VERTROUWEN.",
+                "desc": "Betrouwbaar. Veilig. Altijd beschikbaar.\nTotale gemoedsrust.",
+                "always_available": {
+                    "title": "ALTIJD BESCHIKBAAR",
+                    "desc": "Je data blijft\ntoegankelijk."
+                },
+                "secure": {
+                    "title": "VEILIG BY DESIGN",
+                    "desc": "Geavanceerde bescherming\nvoor je data."
+                },
+                "reliable": {
+                    "title": "BETROUWBAAR",
+                    "desc": "Consistente prestaties\nwanneer het ertoe doet."
+                },
+                "peace_of_mind": {
+                    "title": "GEMOEDS RUST",
+                    "desc": "Focus op wat belangrijk is.\nWij beschermen je data."
+                }
+            }
+        },
+        "connectivity": {
+            "tag": "CONNECTIVITEIT CONTINUÏTEIT",
+            "title1": "Blijf verbonden.",
+            "title2": "Altijd.",
+            "subtitle": "Geen onderbreking,\ngeen verstoring.",
+            "desc": "OXOVOLT Kameleo integreert glasvezel, 4G-5G, satelliet en, afhankelijk van de regio, Entropia Data Radio om je verbinding overal sterk te houden.",
+            "continuity": "Connectiviteitscontinuïteit.",
+            "always_connected": "Altijd verbonden. Altijd betrouwbaar.",
+            "features": {
+                "integration": {
+                    "title": "MULTI-NETWERK INTEGRATIE",
+                    "desc": "Geïntegreerde glasvezel, 4G-5G, satelliet en Entropia Data Radio (waar beschikbaar) voor maximale dekking en betrouwbaarheid."
+                },
+                "failover": {
+                    "title": "NAADELOZE FAILOVER",
+                    "desc": "Automatische overschakeling tussen netwerken in milliseconden. Geen onderbreking."
+                },
+                "reliable": {
+                    "title": "GEBOUWD VOOR BETROUWBAARHEID",
+                    "desc": "Ontworpen voor 24/7 connectiviteit in de meest veeleisende omgevingen."
+                },
+                "secure": {
+                    "title": "VEILIG & BEHEERD",
+                    "desc": "Je verbinding blijft beschermd, gemonitord en geoptimaliseerd."
+                }
+            },
+            "protection": {
+                "title": "Connectiviteit\nwaarop je kunt vertrouwen.",
+                "subtitle": "Overal. Elke keer.",
+                "fiber": {
+                    "title": "GLASVEZEL",
+                    "desc": "Hogesnelheid, stabiel en veilig."
+                },
+                "4g5g": {
+                    "title": "4G-5G",
+                    "desc": "Snelle mobiele connectiviteit met brede dekking."
+                },
+                "satellite": {
+                    "title": "SATELLIET",
+                    "desc": "Wereldwijd bereik, zelfs op de meest afgelegen locaties."
+                },
+                "entropia": {
+                    "title": "ENTROPIA DATA RADIO",
+                    "desc": "Krachtige regionale netwerkdekking (waar beschikbaar)."
+                }
+            },
+            "footer": {
+                "tag": "CONNECTIVITEIT-CONTINUÏTEIT,\nWAAROP JE KUNT VERTROUWEN.",
+                "desc": "Geïntegreerd. Intelligent. Ononderbroken.\nTotale gemoedsrust.",
+                "always_on": {
+                    "title": "ALTIJD AAN",
+                    "desc": "Continue connectiviteit\nover alle netwerken."
+                },
+                "failover": {
+                    "title": "INTELLIGENTE FAILOVER",
+                    "desc": "Automatische netwerk\noverschakeling."
+                },
+                "coverage": {
+                    "title": "WIJDE DEKKING",
+                    "desc": "Meerdere technologieën,\nmaximaal bereik."
+                },
+                "secure": {
+                    "title": "VEILIGE VERBINDING",
+                    "desc": "Beschermd, gemonitord\nen geoptimaliseerd."
+                }
+            }
+        }
+    },
+    "common": {
+        "tabs": {
+            "energy": "Energie",
+            "data": "Data",
+            "connectivity": "Connectiviteit"
+        },
+        "top_header": "PROFESSIONELE & RESIDENTIËLE ENERGIEOPSLAG — GEMAAKT IN BELGIË",
+        "buttons": {
+            "discover": "ONTDEK KAMELEO SERIE",
+            "technical_specs": "TECHNISCHE SPECIFICATIES",
+            "more_details": "Meer details"
+        }
+    }
+}

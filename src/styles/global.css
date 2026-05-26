@@ -1,0 +1,84 @@
+@import 'tailwindcss';
+@import '@heroui/styles';
+
+/* Manual Styles */
+@import './fonts.css';
+@import './heroui.css';
+@import './foundation.css';
+@import './utility.css';
+@import './antd.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+html {
+    scroll-behavior: smooth;
+}
+
+@theme {
+    /* --breakpoint-*: initial; */
+    --breakpoint-small_device: 300px;
+    --breakpoint-mobile: 480px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-laptop: 64rem;
+    --breakpoint-desktop: 1024px;
+    --breakpoint-large_device: 1440px;
+}
+
+body {
+    color: var(--color-text-default) !important;
+    /* Now you can reference the variable defined in @theme */
+    font-family: var(--font-sans);
+}
+
+a {
+    color: var(--color-text-default) !important;
+}
+
+@theme {
+    /* Overrides the default font-sans */
+    --font-sans: 'Google Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* =========================================
+   1. WEBKIT BROWSERS (Chrome, Safari, Edge) 
+   ========================================= */
+
+/* The overall scrollbar width/height */
+::-webkit-scrollbar {
+    width: 8px; /* Makes the vertical scrollbar thin */
+    height: 8px; /* Makes the horizontal scrollbar thin */
+}
+
+/* The track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+    background: #2a2a2a; /* Dark background */
+    border-radius: 10px; /* Rounds the track edges */
+}
+
+/* The draggable thumb with the gradient */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        180deg,
+        #0066ff,
+        #0051cc
+    ); /* Pink to purple gradient */
+    border-radius: 10px; /* Rounds the thumb edges */
+}
+
+/* Darken or change the gradient when hovering over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #0066ff, #0051cc);
+}
+
+/* =========================================
+   2. FIREFOX FALLBACK
+   ========================================= */
+
+/* Apply to the body or the specific scrolling container */
+html {
+    /* Makes the scrollbar thin natively */
+    scrollbar-width: thin;
+
+    /* Firefox doesn't support gradient scrollbars yet. 
+     First color is the thumb, second is the track. */
+    scrollbar-color: #0066ff #ffffff;
+}

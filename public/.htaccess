@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Stop processing if the request is already for index.html
+  RewriteRule ^index\.html$ - [L]
+
+  # 2. IMPORTANT: Do NOT rewrite requests for static assets
+  # If a .js or .css file is missing, this forces a true 404 error instead of sending HTML
+  RewriteCond %{REQUEST_URI} !\.(js|css|png|jpg|jpeg|gif|svg|webp|ico|json|woff|woff2)$ [NC]
+  RewriteCond %{REQUEST_URI} !^/assets/ [NC]
+
+  # 3. For everything else (like /about or /dashboard), rewrite to index.html if the file doesn't exist
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
