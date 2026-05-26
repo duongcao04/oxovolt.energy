@@ -134,7 +134,7 @@ export function MobileLoopxcellDatasheetModal({
                 />
                 <FeatureItem
                     title="PRIMARY OR BACKUP. YOUR CHOICE."
-                    desc="Use LOOPXCELL as your main energy source or as intelligent backup infrastructure."
+                    desc="Use Oxovolt as your main energy source or as intelligent backup infrastructure."
                 />
                 <FeatureItem
                     title="POWER THE ENTIRE BUILDING"
@@ -168,7 +168,7 @@ export function MobileLoopxcellDatasheetModal({
                         { label: 'Partitions Cells', value: '6 x 6 kWh' },
                         { label: 'Débridable On Demand', value: 'YES' },
                         { label: 'Minimum Activated Partition', value: '2' },
-                        { label: 'Depth of Discharge', value: '> 90 %' },
+                        { label: 'Depth of Discharge', value: '> 100 %' },
                         { label: 'Cycles (80% DOD)', value: '> 6000' },
                         {
                             label: 'Warranty',

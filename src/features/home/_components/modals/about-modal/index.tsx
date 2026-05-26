@@ -31,7 +31,7 @@ export const AboutModal = ({
         <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
             <Modal.Backdrop variant="opaque">
                 <Modal.Container size={isSmallView ? 'full' : 'cover'}>
-                    <Modal.Dialog className="m-0 h-full w-full max-w-full overflow-hidden bg-background p-0">
+                    <Modal.Dialog className="bg-background m-0 h-full w-full max-w-full overflow-hidden p-0">
                         {isSmallView && (
                             <div className="flex items-center justify-start gap-4 p-4">
                                 <Button
@@ -50,7 +50,7 @@ export const AboutModal = ({
                                 <AboutModalHeaderLogo />
                             </div>
                         )}
-                        <Modal.CloseTrigger className="absolute top-4 right-4 z-50 text-text-subdued transition-colors hover:text-text-default md:top-8 md:right-8" />
+                        <Modal.CloseTrigger className="text-text-subdued hover:text-text-default absolute top-4 right-4 z-50 transition-colors md:top-8 md:right-8" />
 
                         <Modal.Body className="h-full overflow-hidden p-0">
                             <div className="relative flex h-full w-full flex-col overflow-hidden md:flex-row">
@@ -76,7 +76,7 @@ export const AboutModal = ({
                                                 duration: 0.4,
                                             }}
                                             className={cn(
-                                                'z-20 bg-background',
+                                                'bg-background z-20',
                                                 isSmallView
                                                     ? 'absolute inset-0'
                                                     : 'flex w-[280px] shrink-0 lg:w-[320px]',
@@ -98,7 +98,7 @@ export const AboutModal = ({
                                 {/* Main Content */}
                                 <div
                                     className={cn(
-                                        'relative min-h-0 flex-1 flex-col bg-background',
+                                        'bg-background relative min-h-0 flex-1 flex-col',
                                         'px-0 pb-12 md:pt-6 md:pr-0 md:pb-0 md:pl-6',
                                         'flex',
                                     )}
@@ -498,20 +498,46 @@ export const AboutModal = ({
                                                                         i,
                                                                     ) => (
                                                                         <FeatureCard
-                                                                            key={i}
-                                                                            title={item.title}
+                                                                            key={
+                                                                                i
+                                                                            }
+                                                                            title={
+                                                                                item.title
+                                                                            }
                                                                             isActive={
-                                                                                activePage === item.id || 
-                                                                                (item.children && item.children.some(c => c.id === activePage))
+                                                                                activePage ===
+                                                                                    item.id ||
+                                                                                (item.children &&
+                                                                                    item.children.some(
+                                                                                        (
+                                                                                            c,
+                                                                                        ) =>
+                                                                                            c.id ===
+                                                                                            activePage,
+                                                                                    ))
                                                                             }
                                                                             onPress={() => {
-                                                                                if (!item.children) {
-                                                                                    setActivePage(item.id);
+                                                                                if (
+                                                                                    !item.children
+                                                                                ) {
+                                                                                    setActivePage(
+                                                                                        item.id,
+                                                                                    );
                                                                                 }
                                                                             }}
-                                                                            children={item.children}
-                                                                            onChildPress={(id) => setActivePage(id)}
-                                                                            activeChildId={activePage}
+                                                                            children={
+                                                                                item.children
+                                                                            }
+                                                                            onChildPress={(
+                                                                                id,
+                                                                            ) =>
+                                                                                setActivePage(
+                                                                                    id,
+                                                                                )
+                                                                            }
+                                                                            activeChildId={
+                                                                                activePage
+                                                                            }
                                                                         />
                                                                     ),
                                                                 )}
@@ -738,7 +764,14 @@ export const AboutModal = ({
                                         </ScrollShadow>
 
                                         {activePage && (
-                                            <div className="relative h-full w-full overflow-hidden rounded-2xl border border-border-default bg-background shadow-[0_8px_30px_rgb(0,0,0,0.08)] lg:h-[calc(100vh-200px)]">
+                                            <div
+                                                className="border-border-default dark:border-border-muted bg-background relative mx-auto h-full w-full overflow-hidden rounded-2xl border shadow-[0_8px_30px_rgb(0,0,0,0.08)] lg:h-[calc(100vh-200px)]"
+                                                style={{
+                                                    width: isSmallView
+                                                        ? 'calc(100% - 16px)'
+                                                        : '100%',
+                                                }}
+                                            >
                                                 <ScrollShadow
                                                     className="h-full w-full p-8 pr-4 lg:p-12 lg:pr-8"
                                                     style={{

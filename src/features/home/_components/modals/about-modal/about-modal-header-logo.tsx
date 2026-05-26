@@ -13,7 +13,7 @@ export const AboutModalHeaderLogo = () => {
                 />
             </div>
 
-            <div className="flex w-full items-center justify-start gap-2 text-[9px] font-extrabold text-[#0f0f0d] uppercase lg:justify-center lg:text-[11px] lg:tracking-[2px]">
+            <div className="flex w-full items-center justify-start gap-2 text-[9px] font-extrabold text-text-default uppercase lg:justify-center lg:text-[11px] lg:tracking-[2px]">
                 <span>{t('common.tabs.energy')}</span>
                 <div className="bg-primary mb-[2px] size-1 rounded-full lg:mb-0 lg:size-1.5" />
                 <span>{t('common.tabs.data')}</span>

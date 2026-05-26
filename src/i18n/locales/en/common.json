@@ -47,7 +47,7 @@
                         },
                         {
                             "title": "Primary or backup. Your choice.",
-                            "desc": "Use LOOPXCELL as your main energy source or as intelligent backup infrastructure."
+                            "desc": "Use Oxovolt as your main energy source or as intelligent backup infrastructure."
                         },
                         {
                             "title": "Power the entire building",
@@ -76,7 +76,7 @@
                 "dataVault": {
                     "tag": "DATAVAULT - Data",
                     "mainText": "Your own data.",
-                    "highlightText": "Oxovault™, your own data.",
+                    "highlightText": "Oxovault™, Sovereign solution.",
                     "desc": "More than storage. Total data protection.\nOxovault™ keeps your files encrypted, split across multiple nodes with redundancy — so your data stays private, protected, and accessible at all times.",
                     "subtitle": "You own your data.\nWe protect it without compromise.",
                     "features": [
@@ -468,7 +468,7 @@
                     },
                     {
                         "title": "Primary or backup. Your choice.",
-                        "desc": "Use LOOPXCELL as your main energy source or as intelligent backup infrastructure."
+                        "desc": "Use Oxovolt as your main energy source or as intelligent backup infrastructure."
                     },
                     {
                         "title": "Power your entire practice",

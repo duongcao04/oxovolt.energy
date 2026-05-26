@@ -1,11 +1,12 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createRouter, RouterProvider } from '@tanstack/react-router';
+import { SECTION_ANCHORS } from './routes/_public/_home/index';
 import { UpdateVersionModal } from './components/layout';
-import { StrictMode } from 'react';
 import { routeTree } from './routeTree.gen';
 import { useVersionCheck } from './hooks';
 import ReactDOM from 'react-dom/client';
 import { APP_CONFIG } from '@/config';
+import { StrictMode } from 'react';
 import './styles/global.css';
 import './i18n/config';
 
@@ -15,22 +16,14 @@ declare module '@tanstack/react-router' {
     }
 }
 
-// Strip section-scroll anchors from URL on page load to prevent unwanted jumps.
-// Modal hashes are preserved so they can auto-open.
-const SECTION_ANCHORS = new Set([
-    'environment',
-    'professional-practices',
-    'loopXcell-series',
-    'sovereign-infrastructure',
-    'kameleo-series',
-    'they-choose-oxovolt',
-    'our-solutions',
-    'get-started-now',
-]);
 if (window.location.hash) {
     const hash = window.location.hash.slice(1);
     if (SECTION_ANCHORS.has(hash)) {
-        window.history.replaceState({}, '', window.location.pathname + window.location.search);
+        window.history.replaceState(
+            {},
+            '',
+            window.location.pathname + window.location.search,
+        );
     }
 }
 

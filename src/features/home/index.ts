@@ -28,6 +28,7 @@ export * from './_components/sections/solutions-section';
 export * from './_components/sections/sovereign-infrastructure';
 export * from './_components/sections/stats-section';
 export * from './_components/sections/they-choose-oxovolt';
+export * from './_components/sections/made-in-belgium';
 export * from './_components/sections/two-energy-architectures-sections';
 export * from './loopxcell/_components/feature-modals/built-in-inverters-modal';
 export * from './loopxcell/_components/feature-modals/extreme-modal';

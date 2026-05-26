@@ -21,7 +21,7 @@ export function GetStartedNow() {
 
                     <SectionTitle
                         mainText={"Let's talk about\nyour project."}
-                        highlightText={"We're ready\nwhen you are."}
+                        highlightText={"We're ready."}
                     />
 
                     <p className="text-text-default mb-12 max-w-md text-[15px] leading-relaxed font-medium">

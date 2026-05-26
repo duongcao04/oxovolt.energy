@@ -7,9 +7,23 @@ import {
     ForProfessionalPracticesSection,
     SovereignInfrastructure,
     GetStartedNow,
+    MadeInBelgium,
 } from '../../../features/home';
 import { createFileRoute } from '@tanstack/react-router';
 import { Separator } from '@heroui/react';
+// Strip section-scroll anchors from URL on page load to prevent unwanted jumps.
+// Modal hashes are preserved so they can auto-open.
+export const SECTION_ANCHORS = new Set([
+    'environment',
+    'professional-practices',
+    'loopXcell-series',
+    'sovereign-infrastructure',
+    'kameleo-series',
+    'they-choose-oxovolt',
+    'made-in-belgium',
+    'our-solutions',
+    'get-started-now',
+]);
 
 export const Route = createFileRoute('/_public/_home/')({
     component: () => {
@@ -30,6 +44,8 @@ export const Route = createFileRoute('/_public/_home/')({
                 <SovereignInfrastructure />
                 <Separator />
                 <TheyChooseOxovolt />
+                <Separator />
+                <MadeInBelgium />
                 <Separator />
                 <GetStartedNow />
                 <Separator />

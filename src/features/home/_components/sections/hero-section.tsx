@@ -192,6 +192,7 @@ export const HeroSection = () => {
                                     linkProps={{
                                         hash: 'environment',
                                     }}
+                                    arrowType="down"
                                 >
                                     {t('home.hero.secondButton')}
                                 </Button>

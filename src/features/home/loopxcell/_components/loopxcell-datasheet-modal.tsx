@@ -135,7 +135,7 @@ export function LoopxcellDatasheetModal({
                                         />
                                         <FeatureItem
                                             title="PRIMARY OR BACKUP. YOUR CHOICE."
-                                            desc="Use LOOPXCELL as your main energy source or as intelligent backup infrastructure."
+                                            desc="Use Oxovolt as your main energy source or as intelligent backup infrastructure."
                                         />
                                         <FeatureItem
                                             title="POWER THE ENTIRE BUILDING"
