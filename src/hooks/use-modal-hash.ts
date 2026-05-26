@@ -21,7 +21,12 @@ export function useModalHash(hash: string) {
     const onClose = useCallback(() => {
         setIsOpen(false);
         if (window.location.hash === `#${hash}`) {
+            const scrollY = window.scrollY;
             window.history.pushState({}, '', window.location.pathname);
+            // Some browsers scroll to top when removing the hash — restore position.
+            requestAnimationFrame(() => {
+                window.scrollTo({ top: scrollY, behavior: 'instant' });
+            });
         }
     }, [hash]);
 
